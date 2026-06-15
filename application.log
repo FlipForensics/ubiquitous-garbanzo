@@ -1,0 +1,720 @@
+2026-06-13 06:11:24,249 INFO [app.automation.engine] Initialized case logging at /home/sansforensics/Desktop/AIFT/cases/3bc3102d-8474-4ee5-8b85-9c4ae7ec0b96/logs/application.log
+2026-06-13 06:11:24,253 INFO [app.automation.discovery] Discovered 7 evidence target(s) in /mnt/data/Evidence
+2026-06-13 06:11:24,259 INFO [app.logging.case_manager] Added image c2adc4df-9f95-4026-a12d-390fdd04d28e to case 3bc3102d-8474-4ee5-8b85-9c4ae7ec0b96
+2026-06-13 06:11:25,495 WARNING [dissect.target.target] <Target /mnt/data/Evidence/base-dc-cdrive.E01>: Can't identify volume system or no volumes found, adding as raw volume instead: <Container type=ewf size=36110860288 vs=None>
+2026-06-13 06:11:32,095 WARNING [dissect.target.target] <Target /mnt/data/Evidence/base-dc-cdrive.E01>: Subplugin chrome is not compatible with target
+2026-06-13 06:11:32,120 WARNING [dissect.target.target] <Target /mnt/data/Evidence/base-dc-cdrive.E01>: Subplugin safari is not compatible with target
+2026-06-13 06:11:32,204 WARNING [dissect.target.target] <Target /mnt/data/Evidence/base-dc-cdrive.E01>: Subplugin firefox is not compatible with target
+2026-06-13 06:11:32,824 WARNING [dissect.target.target] <Target /mnt/data/Evidence/base-dc-cdrive.E01>: Subplugin edge is not compatible with target
+2026-06-13 06:11:33,044 WARNING [dissect.target.target] <Target /mnt/data/Evidence/base-dc-cdrive.E01>: Subplugin chromium is not compatible with target
+2026-06-13 06:11:33,731 WARNING [dissect.target.target] <Target /mnt/data/Evidence/base-dc-cdrive.E01>: Subplugin brave is not compatible with target
+2026-06-13 06:12:00,995 WARNING [dissect.target.target] <Target /mnt/data/Evidence/base-dc-cdrive.E01>: Not implemented ShimCache version: <RegfKey AppCompatCache> CacheMainSdb
+2026-06-13 06:12:26,511 WARNING [dissect.target.target] <Target /mnt/data/Evidence/base-dc-cdrive.E01>: Not implemented ShimCache version: <RegfKey AppCompatCache> CacheMainSdb
+2026-06-13 06:12:51,835 WARNING [dissect.target.target] <Target /mnt/data/Evidence/base-dc-cdrive.E01>: Not implemented ShimCache version: <RegfKey AppCompatCache> CacheMainSdb
+2026-06-13 06:13:13,065 WARNING [dissect.target.target] <Target /mnt/data/Evidence/base-dc-cdrive.E01>: Not implemented ShimCache version: <RegfKey AppCompatCache> CacheMainSdb
+2026-06-13 06:13:13,940 WARNING [app.automation.engine] Parse produced no usable output for recyclebin on base-dc-cdrive.
+2026-06-13 06:13:17,996 WARNING [dissect.target.plugins.os.windows.jumplist] Failed to parse LNK file from directory 1
+2026-06-13 06:13:18,013 WARNING [dissect.target.plugins.os.windows.jumplist] Failed to parse LNK file from directory 4
+2026-06-13 06:13:18,025 WARNING [dissect.shellitem.lnk.lnk] Mismatch in read size (88) and actual EXTRA_DATA_BLOCK length (55) for data block (TRACKER_PROPS)
+2026-06-13 06:13:18,031 WARNING [dissect.shellitem.lnk.lnk] Mismatch in read size (516) and actual EXTRA_DATA_BLOCK length (50) for data block (VISTA_AND_ABOVE_IDLIST_PROPS)
+2026-06-13 06:13:18,067 WARNING [dissect.shellitem.lnk.lnk] Mismatch in read size (88) and actual EXTRA_DATA_BLOCK length (55) for data block (TRACKER_PROPS)
+2026-06-13 06:13:18,086 WARNING [dissect.shellitem.lnk.lnk] Mismatch in read size (88) and actual EXTRA_DATA_BLOCK length (55) for data block (TRACKER_PROPS)
+2026-06-13 06:13:18,089 WARNING [dissect.shellitem.lnk.lnk] Mismatch in read size (88) and actual EXTRA_DATA_BLOCK length (55) for data block (TRACKER_PROPS)
+2026-06-13 06:13:18,093 WARNING [dissect.shellitem.lnk.lnk] Mismatch in read size (88) and actual EXTRA_DATA_BLOCK length (55) for data block (TRACKER_PROPS)
+2026-06-13 06:13:18,097 WARNING [dissect.shellitem.lnk.lnk] Mismatch in read size (88) and actual EXTRA_DATA_BLOCK length (55) for data block (TRACKER_PROPS)
+2026-06-13 06:13:18,100 WARNING [dissect.shellitem.lnk.lnk] Mismatch in read size (88) and actual EXTRA_DATA_BLOCK length (55) for data block (TRACKER_PROPS)
+2026-06-13 06:13:18,103 WARNING [dissect.shellitem.lnk.lnk] Mismatch in read size (432) and actual EXTRA_DATA_BLOCK length (50) for data block (VISTA_AND_ABOVE_IDLIST_PROPS)
+2026-06-13 06:13:18,113 WARNING [dissect.shellitem.lnk.lnk] Mismatch in read size (88) and actual EXTRA_DATA_BLOCK length (55) for data block (TRACKER_PROPS)
+2026-06-13 06:13:18,116 WARNING [dissect.shellitem.lnk.lnk] Mismatch in read size (534) and actual EXTRA_DATA_BLOCK length (50) for data block (VISTA_AND_ABOVE_IDLIST_PROPS)
+2026-06-13 06:13:18,122 WARNING [dissect.shellitem.lnk.lnk] Mismatch in read size (596) and actual EXTRA_DATA_BLOCK length (50) for data block (VISTA_AND_ABOVE_IDLIST_PROPS)
+2026-06-13 06:13:18,129 WARNING [dissect.shellitem.lnk.lnk] Mismatch in read size (88) and actual EXTRA_DATA_BLOCK length (55) for data block (TRACKER_PROPS)
+2026-06-13 06:13:18,131 WARNING [dissect.shellitem.lnk.lnk] Mismatch in read size (614) and actual EXTRA_DATA_BLOCK length (50) for data block (VISTA_AND_ABOVE_IDLIST_PROPS)
+2026-06-13 06:13:18,139 WARNING [dissect.shellitem.lnk.lnk] Mismatch in read size (512) and actual EXTRA_DATA_BLOCK length (50) for data block (VISTA_AND_ABOVE_IDLIST_PROPS)
+2026-06-13 06:13:18,146 WARNING [dissect.shellitem.lnk.lnk] Mismatch in read size (602) and actual EXTRA_DATA_BLOCK length (50) for data block (VISTA_AND_ABOVE_IDLIST_PROPS)
+2026-06-13 06:13:18,153 WARNING [dissect.shellitem.lnk.lnk] Mismatch in read size (598) and actual EXTRA_DATA_BLOCK length (50) for data block (VISTA_AND_ABOVE_IDLIST_PROPS)
+2026-06-13 06:13:18,159 WARNING [dissect.shellitem.lnk.lnk] Mismatch in read size (676) and actual EXTRA_DATA_BLOCK length (50) for data block (VISTA_AND_ABOVE_IDLIST_PROPS)
+2026-06-13 06:13:18,171 WARNING [dissect.shellitem.lnk.lnk] Mismatch in read size (754) and actual EXTRA_DATA_BLOCK length (50) for data block (VISTA_AND_ABOVE_IDLIST_PROPS)
+2026-06-13 06:13:18,180 WARNING [dissect.shellitem.lnk.lnk] Mismatch in read size (88) and actual EXTRA_DATA_BLOCK length (55) for data block (TRACKER_PROPS)
+2026-06-13 06:13:18,182 WARNING [dissect.shellitem.lnk.lnk] Mismatch in read size (756) and actual EXTRA_DATA_BLOCK length (50) for data block (VISTA_AND_ABOVE_IDLIST_PROPS)
+2026-06-13 06:13:18,200 WARNING [dissect.shellitem.lnk.lnk] Mismatch in read size (88) and actual EXTRA_DATA_BLOCK length (55) for data block (TRACKER_PROPS)
+2026-06-13 06:13:18,210 WARNING [dissect.shellitem.lnk.lnk] Mismatch in read size (88) and actual EXTRA_DATA_BLOCK length (55) for data block (TRACKER_PROPS)
+2026-06-13 06:13:18,222 WARNING [dissect.shellitem.lnk.lnk] Mismatch in read size (88) and actual EXTRA_DATA_BLOCK length (55) for data block (TRACKER_PROPS)
+2026-06-13 06:13:18,238 WARNING [dissect.shellitem.lnk.lnk] Mismatch in read size (878) and actual EXTRA_DATA_BLOCK length (50) for data block (VISTA_AND_ABOVE_IDLIST_PROPS)
+2026-06-13 06:13:18,246 WARNING [dissect.shellitem.lnk.lnk] Mismatch in read size (88) and actual EXTRA_DATA_BLOCK length (55) for data block (TRACKER_PROPS)
+2026-06-13 06:13:18,251 WARNING [dissect.shellitem.lnk.lnk] Mismatch in read size (88) and actual EXTRA_DATA_BLOCK length (55) for data block (TRACKER_PROPS)
+2026-06-13 06:13:18,254 WARNING [dissect.shellitem.lnk.lnk] Mismatch in read size (878) and actual EXTRA_DATA_BLOCK length (50) for data block (VISTA_AND_ABOVE_IDLIST_PROPS)
+2026-06-13 06:13:18,265 WARNING [dissect.shellitem.lnk.lnk] Mismatch in read size (88) and actual EXTRA_DATA_BLOCK length (55) for data block (TRACKER_PROPS)
+2026-06-13 06:13:18,454 WARNING [app.automation.engine] Partial artifact parsing for base-dc-cdrive: 15/16 artifacts produced usable output.
+2026-06-13 06:13:18,460 INFO [app.logging.case_manager] Added image 66190324-1efb-42d2-b2c4-316e91c91631 to case 3bc3102d-8474-4ee5-8b85-9c4ae7ec0b96
+2026-06-13 06:13:19,981 WARNING [dissect.target.target] <Target /mnt/data/Evidence/base-file-cdrive.E01>: Can't identify volume system or no volumes found, adding as raw volume instead: <Container type=ewf size=31685869568 vs=None>
+2026-06-13 06:13:24,239 WARNING [dissect.target.target] <Target /mnt/data/Evidence/base-file-cdrive.E01>: Subplugin chrome is not compatible with target
+2026-06-13 06:13:24,275 WARNING [dissect.target.target] <Target /mnt/data/Evidence/base-file-cdrive.E01>: Subplugin safari is not compatible with target
+2026-06-13 06:13:24,381 WARNING [dissect.target.target] <Target /mnt/data/Evidence/base-file-cdrive.E01>: Subplugin firefox is not compatible with target
+2026-06-13 06:13:25,130 WARNING [dissect.target.target] <Target /mnt/data/Evidence/base-file-cdrive.E01>: Subplugin edge is not compatible with target
+2026-06-13 06:13:25,382 WARNING [dissect.target.target] <Target /mnt/data/Evidence/base-file-cdrive.E01>: Subplugin chromium is not compatible with target
+2026-06-13 06:13:26,159 WARNING [dissect.target.target] <Target /mnt/data/Evidence/base-file-cdrive.E01>: Subplugin brave is not compatible with target
+2026-06-13 06:13:46,688 WARNING [dissect.target.target] <Target /mnt/data/Evidence/base-file-cdrive.E01>: Could not find registry key "Root\InventoryApplicationFile"
+2026-06-13 06:13:46,689 WARNING [dissect.target.target] <Target /mnt/data/Evidence/base-file-cdrive.E01>: Could not find registry key "Root\InventoryApplication"
+2026-06-13 06:13:46,689 WARNING [dissect.target.target] <Target /mnt/data/Evidence/base-file-cdrive.E01>: Could not find registry key "Root\InventoryDeviceContainer"
+2026-06-13 06:13:46,689 WARNING [dissect.target.target] <Target /mnt/data/Evidence/base-file-cdrive.E01>: Could not find registry key "Root\InventoryDriverBinary"
+2026-06-13 06:13:47,054 WARNING [dissect.target.target] <Target /mnt/data/Evidence/base-file-cdrive.E01>: Could not find registry key "Root\InventoryApplicationShortcut"
+2026-06-13 06:13:51,486 ERROR [dissect.target.target] <Target /mnt/data/Evidence/base-file-cdrive.E01>: Error parsing response headers: 'NoneType' object has no attribute 'decode'
+2026-06-13 06:13:53,401 WARNING [dissect.target.plugins.os.windows.jumplist] Failed to parse LNK file from directory 1
+2026-06-13 06:13:53,406 WARNING [dissect.target.plugins.os.windows.jumplist] Failed to parse LNK file from directory 2
+2026-06-13 06:13:53,671 WARNING [app.automation.engine] Parse produced no usable output for defender.quarantine on base-file-cdrive.
+2026-06-13 06:13:53,691 WARNING [app.automation.engine] Partial artifact parsing for base-file-cdrive: 14/15 artifacts produced usable output.
+2026-06-13 06:13:53,696 INFO [app.logging.case_manager] Added image a66612b5-ee40-416e-8eb2-49ec34b9b3b1 to case 3bc3102d-8474-4ee5-8b85-9c4ae7ec0b96
+2026-06-13 06:13:54,908 WARNING [dissect.target.target] <Target /mnt/data/Evidence/base-rd-01-cdrive.E01>: Can't identify volume system or no volumes found, adding as raw volume instead: <Container type=ewf size=33833353216 vs=None>
+2026-06-13 06:14:06,183 WARNING [dissect.target.target] <Target /mnt/data/Evidence/base-rd-01-cdrive.E01>: Subplugin safari is not compatible with target
+2026-06-13 06:14:07,022 WARNING [dissect.target.target] <Target /mnt/data/Evidence/base-rd-01-cdrive.E01>: Subplugin edge is not compatible with target
+2026-06-13 06:14:07,237 WARNING [dissect.target.target] <Target /mnt/data/Evidence/base-rd-01-cdrive.E01>: Subplugin chromium is not compatible with target
+2026-06-13 06:14:07,976 WARNING [dissect.target.target] <Target /mnt/data/Evidence/base-rd-01-cdrive.E01>: Subplugin brave is not compatible with target
+2026-06-13 06:14:10,004 WARNING [dissect.target.target] <Target /mnt/data/Evidence/base-rd-01-cdrive.E01>: Invalid task file encountered: C:/WINDOWS/system32/tasks/Microsoft/Windows/Windows Error Reporting/QueueReporting
+2026-06-13 06:15:02,904 WARNING [dissect.target.target] <Target /mnt/data/Evidence/base-rd-01-cdrive.E01>: Not implemented ShimCache version: <RegfKey AppCompatCache> CacheMainSdb
+2026-06-13 06:15:03,537 WARNING [dissect.target.target] <Target /mnt/data/Evidence/base-rd-01-cdrive.E01>: Could not find registry key "Root\File"
+2026-06-13 06:15:03,608 WARNING [dissect.target.target] <Target /mnt/data/Evidence/base-rd-01-cdrive.E01>: Could not find registry key "Root\Programs"
+2026-06-13 06:15:08,608 WARNING [dissect.shellitem.lnk.lnk] Mismatch in read size (516) and actual EXTRA_DATA_BLOCK length (50) for data block (VISTA_AND_ABOVE_IDLIST_PROPS)
+2026-06-13 06:15:08,628 WARNING [dissect.target.plugins.os.windows.jumplist] Failed to parse LNK file from directory 5
+2026-06-13 06:15:08,830 WARNING [dissect.target.plugins.os.windows.jumplist] Failed to parse LNK file from directory 1
+2026-06-13 06:15:08,918 WARNING [dissect.shellitem.lnk.lnk] Mismatch in read size (432) and actual EXTRA_DATA_BLOCK length (50) for data block (VISTA_AND_ABOVE_IDLIST_PROPS)
+2026-06-13 06:15:08,948 WARNING [dissect.target.plugins.os.windows.jumplist] Failed to parse LNK file from directory b
+2026-06-13 06:15:08,976 WARNING [dissect.target.plugins.os.windows.jumplist] Failed to parse LNK file from directory 13
+2026-06-13 06:15:09,137 WARNING [dissect.shellitem.lnk.lnk] Mismatch in read size (614) and actual EXTRA_DATA_BLOCK length (50) for data block (VISTA_AND_ABOVE_IDLIST_PROPS)
+2026-06-13 06:15:09,161 WARNING [dissect.shellitem.lnk.lnk] Mismatch in read size (511) and actual EXTRA_DATA_BLOCK length (50) for data block (VISTA_AND_ABOVE_IDLIST_PROPS)
+2026-06-13 06:15:09,178 WARNING [dissect.shellitem.lnk.lnk] Mismatch in read size (536) and actual EXTRA_DATA_BLOCK length (50) for data block (VISTA_AND_ABOVE_IDLIST_PROPS)
+2026-06-13 06:15:09,184 WARNING [dissect.shellitem.lnk.lnk] Mismatch in read size (614) and actual EXTRA_DATA_BLOCK length (50) for data block (VISTA_AND_ABOVE_IDLIST_PROPS)
+2026-06-13 06:15:09,191 WARNING [dissect.shellitem.lnk.lnk] Mismatch in read size (704) and actual EXTRA_DATA_BLOCK length (50) for data block (VISTA_AND_ABOVE_IDLIST_PROPS)
+2026-06-13 06:15:09,198 WARNING [dissect.shellitem.lnk.lnk] Mismatch in read size (704) and actual EXTRA_DATA_BLOCK length (50) for data block (VISTA_AND_ABOVE_IDLIST_PROPS)
+2026-06-13 06:15:09,204 WARNING [dissect.shellitem.lnk.lnk] Mismatch in read size (682) and actual EXTRA_DATA_BLOCK length (50) for data block (VISTA_AND_ABOVE_IDLIST_PROPS)
+2026-06-13 06:15:09,212 WARNING [dissect.shellitem.lnk.lnk] Mismatch in read size (716) and actual EXTRA_DATA_BLOCK length (50) for data block (VISTA_AND_ABOVE_IDLIST_PROPS)
+2026-06-13 06:15:09,219 WARNING [dissect.shellitem.lnk.lnk] Mismatch in read size (614) and actual EXTRA_DATA_BLOCK length (50) for data block (VISTA_AND_ABOVE_IDLIST_PROPS)
+2026-06-13 06:15:09,226 WARNING [dissect.shellitem.lnk.lnk] Mismatch in read size (511) and actual EXTRA_DATA_BLOCK length (50) for data block (VISTA_AND_ABOVE_IDLIST_PROPS)
+2026-06-13 06:15:09,232 WARNING [dissect.shellitem.lnk.lnk] Mismatch in read size (511) and actual EXTRA_DATA_BLOCK length (50) for data block (VISTA_AND_ABOVE_IDLIST_PROPS)
+2026-06-13 06:15:09,238 WARNING [dissect.shellitem.lnk.lnk] Mismatch in read size (511) and actual EXTRA_DATA_BLOCK length (50) for data block (VISTA_AND_ABOVE_IDLIST_PROPS)
+2026-06-13 06:15:09,245 WARNING [dissect.shellitem.lnk.lnk] Mismatch in read size (614) and actual EXTRA_DATA_BLOCK length (50) for data block (VISTA_AND_ABOVE_IDLIST_PROPS)
+2026-06-13 06:15:09,252 WARNING [dissect.shellitem.lnk.lnk] Mismatch in read size (682) and actual EXTRA_DATA_BLOCK length (50) for data block (VISTA_AND_ABOVE_IDLIST_PROPS)
+2026-06-13 06:15:09,259 WARNING [dissect.shellitem.lnk.lnk] Mismatch in read size (686) and actual EXTRA_DATA_BLOCK length (50) for data block (VISTA_AND_ABOVE_IDLIST_PROPS)
+2026-06-13 06:15:09,266 WARNING [dissect.shellitem.lnk.lnk] Mismatch in read size (704) and actual EXTRA_DATA_BLOCK length (50) for data block (VISTA_AND_ABOVE_IDLIST_PROPS)
+2026-06-13 06:15:09,273 WARNING [dissect.shellitem.lnk.lnk] Mismatch in read size (682) and actual EXTRA_DATA_BLOCK length (50) for data block (VISTA_AND_ABOVE_IDLIST_PROPS)
+2026-06-13 06:15:09,280 WARNING [dissect.shellitem.lnk.lnk] Mismatch in read size (704) and actual EXTRA_DATA_BLOCK length (50) for data block (VISTA_AND_ABOVE_IDLIST_PROPS)
+2026-06-13 06:15:09,287 WARNING [dissect.shellitem.lnk.lnk] Mismatch in read size (511) and actual EXTRA_DATA_BLOCK length (50) for data block (VISTA_AND_ABOVE_IDLIST_PROPS)
+2026-06-13 06:15:09,294 WARNING [dissect.shellitem.lnk.lnk] Mismatch in read size (614) and actual EXTRA_DATA_BLOCK length (50) for data block (VISTA_AND_ABOVE_IDLIST_PROPS)
+2026-06-13 06:15:09,301 WARNING [dissect.shellitem.lnk.lnk] Mismatch in read size (700) and actual EXTRA_DATA_BLOCK length (50) for data block (VISTA_AND_ABOVE_IDLIST_PROPS)
+2026-06-13 06:15:09,309 WARNING [dissect.shellitem.lnk.lnk] Mismatch in read size (710) and actual EXTRA_DATA_BLOCK length (50) for data block (VISTA_AND_ABOVE_IDLIST_PROPS)
+2026-06-13 06:15:09,316 WARNING [dissect.shellitem.lnk.lnk] Mismatch in read size (716) and actual EXTRA_DATA_BLOCK length (50) for data block (VISTA_AND_ABOVE_IDLIST_PROPS)
+2026-06-13 06:15:09,322 WARNING [dissect.shellitem.lnk.lnk] Mismatch in read size (682) and actual EXTRA_DATA_BLOCK length (50) for data block (VISTA_AND_ABOVE_IDLIST_PROPS)
+2026-06-13 06:15:09,329 WARNING [dissect.shellitem.lnk.lnk] Mismatch in read size (748) and actual EXTRA_DATA_BLOCK length (50) for data block (VISTA_AND_ABOVE_IDLIST_PROPS)
+2026-06-13 06:15:09,336 WARNING [dissect.shellitem.lnk.lnk] Mismatch in read size (694) and actual EXTRA_DATA_BLOCK length (50) for data block (VISTA_AND_ABOVE_IDLIST_PROPS)
+2026-06-13 06:15:09,343 WARNING [dissect.shellitem.lnk.lnk] Mismatch in read size (742) and actual EXTRA_DATA_BLOCK length (50) for data block (VISTA_AND_ABOVE_IDLIST_PROPS)
+2026-06-13 06:15:09,350 WARNING [dissect.shellitem.lnk.lnk] Mismatch in read size (722) and actual EXTRA_DATA_BLOCK length (50) for data block (VISTA_AND_ABOVE_IDLIST_PROPS)
+2026-06-13 06:15:09,357 WARNING [dissect.shellitem.lnk.lnk] Mismatch in read size (730) and actual EXTRA_DATA_BLOCK length (50) for data block (VISTA_AND_ABOVE_IDLIST_PROPS)
+2026-06-13 06:15:09,364 WARNING [dissect.shellitem.lnk.lnk] Mismatch in read size (710) and actual EXTRA_DATA_BLOCK length (50) for data block (VISTA_AND_ABOVE_IDLIST_PROPS)
+2026-06-13 06:15:09,371 WARNING [dissect.shellitem.lnk.lnk] Mismatch in read size (614) and actual EXTRA_DATA_BLOCK length (50) for data block (VISTA_AND_ABOVE_IDLIST_PROPS)
+2026-06-13 06:15:09,377 WARNING [dissect.shellitem.lnk.lnk] Mismatch in read size (706) and actual EXTRA_DATA_BLOCK length (50) for data block (VISTA_AND_ABOVE_IDLIST_PROPS)
+2026-06-13 06:15:09,384 WARNING [dissect.shellitem.lnk.lnk] Mismatch in read size (704) and actual EXTRA_DATA_BLOCK length (50) for data block (VISTA_AND_ABOVE_IDLIST_PROPS)
+2026-06-13 06:15:09,391 WARNING [dissect.shellitem.lnk.lnk] Mismatch in read size (700) and actual EXTRA_DATA_BLOCK length (50) for data block (VISTA_AND_ABOVE_IDLIST_PROPS)
+2026-06-13 06:15:09,398 WARNING [dissect.shellitem.lnk.lnk] Mismatch in read size (710) and actual EXTRA_DATA_BLOCK length (50) for data block (VISTA_AND_ABOVE_IDLIST_PROPS)
+2026-06-13 06:15:09,405 WARNING [dissect.shellitem.lnk.lnk] Mismatch in read size (511) and actual EXTRA_DATA_BLOCK length (50) for data block (VISTA_AND_ABOVE_IDLIST_PROPS)
+2026-06-13 06:15:09,411 WARNING [dissect.shellitem.lnk.lnk] Mismatch in read size (686) and actual EXTRA_DATA_BLOCK length (50) for data block (VISTA_AND_ABOVE_IDLIST_PROPS)
+2026-06-13 06:15:09,417 WARNING [dissect.shellitem.lnk.lnk] Mismatch in read size (688) and actual EXTRA_DATA_BLOCK length (50) for data block (VISTA_AND_ABOVE_IDLIST_PROPS)
+2026-06-13 06:15:09,424 WARNING [dissect.shellitem.lnk.lnk] Mismatch in read size (704) and actual EXTRA_DATA_BLOCK length (50) for data block (VISTA_AND_ABOVE_IDLIST_PROPS)
+2026-06-13 06:15:09,431 WARNING [dissect.shellitem.lnk.lnk] Mismatch in read size (706) and actual EXTRA_DATA_BLOCK length (50) for data block (VISTA_AND_ABOVE_IDLIST_PROPS)
+2026-06-13 06:15:09,438 WARNING [dissect.shellitem.lnk.lnk] Mismatch in read size (698) and actual EXTRA_DATA_BLOCK length (50) for data block (VISTA_AND_ABOVE_IDLIST_PROPS)
+2026-06-13 06:15:09,444 WARNING [dissect.target.plugins.os.windows.jumplist] Failed to parse LNK file from directory 38
+2026-06-13 06:15:09,450 WARNING [dissect.shellitem.lnk.lnk] Mismatch in read size (614) and actual EXTRA_DATA_BLOCK length (50) for data block (VISTA_AND_ABOVE_IDLIST_PROPS)
+2026-06-13 06:15:09,456 WARNING [dissect.shellitem.lnk.lnk] Mismatch in read size (704) and actual EXTRA_DATA_BLOCK length (50) for data block (VISTA_AND_ABOVE_IDLIST_PROPS)
+2026-06-13 06:15:09,463 WARNING [dissect.shellitem.lnk.lnk] Mismatch in read size (728) and actual EXTRA_DATA_BLOCK length (50) for data block (VISTA_AND_ABOVE_IDLIST_PROPS)
+2026-06-13 06:15:09,470 WARNING [dissect.shellitem.lnk.lnk] Mismatch in read size (510) and actual EXTRA_DATA_BLOCK length (50) for data block (VISTA_AND_ABOVE_IDLIST_PROPS)
+2026-06-13 06:15:09,477 WARNING [dissect.shellitem.lnk.lnk] Mismatch in read size (510) and actual EXTRA_DATA_BLOCK length (50) for data block (VISTA_AND_ABOVE_IDLIST_PROPS)
+2026-06-13 06:15:09,716 WARNING [app.automation.engine] Parse produced no usable output for defender.quarantine on base-rd-01-cdrive.
+2026-06-13 06:15:09,726 WARNING [app.automation.engine] Partial artifact parsing for base-rd-01-cdrive: 16/17 artifacts produced usable output.
+2026-06-13 06:15:09,730 INFO [app.logging.case_manager] Added image c165a62c-fcc2-4feb-b9a0-5e42fe834047 to case 3bc3102d-8474-4ee5-8b85-9c4ae7ec0b96
+2026-06-13 06:15:11,049 WARNING [dissect.target.target] <Target /mnt/data/Evidence/base-rd-02-cdrive.E01>: Can't identify volume system or no volumes found, adding as raw volume instead: <Container type=ewf size=33833353216 vs=None>
+2026-06-13 06:15:22,681 WARNING [dissect.target.target] <Target /mnt/data/Evidence/base-rd-02-cdrive.E01>: Subplugin safari is not compatible with target
+2026-06-13 06:15:24,388 WARNING [dissect.target.target] <Target /mnt/data/Evidence/base-rd-02-cdrive.E01>: Subplugin edge is not compatible with target
+2026-06-13 06:15:24,646 WARNING [dissect.target.target] <Target /mnt/data/Evidence/base-rd-02-cdrive.E01>: Subplugin chromium is not compatible with target
+2026-06-13 06:15:25,495 WARNING [dissect.target.target] <Target /mnt/data/Evidence/base-rd-02-cdrive.E01>: Subplugin brave is not compatible with target
+2026-06-13 06:15:27,522 WARNING [dissect.target.target] <Target /mnt/data/Evidence/base-rd-02-cdrive.E01>: Invalid task file encountered: C:/WINDOWS/system32/tasks/Microsoft/Windows/SoftwareProtectionPlatform/SvcRestartTask
+2026-06-13 06:16:00,399 WARNING [dissect.target.target] <Target /mnt/data/Evidence/base-rd-02-cdrive.E01>: Not implemented ShimCache version: <RegfKey AppCompatCache> CacheMainSdb
+2026-06-13 06:16:01,045 WARNING [dissect.target.target] <Target /mnt/data/Evidence/base-rd-02-cdrive.E01>: Could not find registry key "Root\File"
+2026-06-13 06:16:01,108 WARNING [dissect.target.target] <Target /mnt/data/Evidence/base-rd-02-cdrive.E01>: Could not find registry key "Root\Programs"
+2026-06-13 06:16:01,217 WARNING [app.automation.engine] Parse produced no usable output for recyclebin on base-rd-02-cdrive.
+2026-06-13 06:16:09,124 WARNING [app.automation.engine] Parse produced no usable output for browser.downloads on base-rd-02-cdrive.
+2026-06-13 06:16:09,226 WARNING [dissect.target.plugins.os.windows.jumplist] Failed to parse LNK file from directory 2c00
+2026-06-13 06:16:09,237 WARNING [dissect.target.plugins.os.windows.jumplist] Failed to parse LNK file from directory 24a0
+2026-06-13 06:16:09,321 WARNING [dissect.target.plugins.os.windows.jumplist] Failed to parse LNK file from directory 2b3b
+2026-06-13 06:16:09,335 WARNING [dissect.target.plugins.os.windows.jumplist] Failed to parse LNK file from directory 2b60
+2026-06-13 06:16:09,438 WARNING [dissect.target.plugins.os.windows.jumplist] Failed to parse LNK file from directory 2b5b
+2026-06-13 06:16:09,551 WARNING [dissect.target.plugins.os.windows.jumplist] Failed to parse LNK file from directory 2b79
+2026-06-13 06:16:09,711 WARNING [dissect.target.plugins.os.windows.jumplist] Failed to parse LNK file from directory 2ba3
+2026-06-13 06:16:09,771 WARNING [dissect.target.plugins.os.windows.jumplist] Failed to parse LNK file from directory 2bb5
+2026-06-13 06:16:09,799 WARNING [dissect.target.plugins.os.windows.jumplist] Failed to parse LNK file from directory 2bbd
+2026-06-13 06:16:09,878 WARNING [dissect.target.plugins.os.windows.jumplist] Failed to parse LNK file from directory 2bd4
+2026-06-13 06:16:09,923 WARNING [dissect.target.plugins.os.windows.jumplist] Failed to parse LNK file from directory 2bdd
+2026-06-13 06:16:10,212 WARNING [dissect.target.plugins.os.windows.jumplist] Failed to parse LNK file from directory 2c23
+2026-06-13 06:16:10,302 WARNING [dissect.target.plugins.os.windows.jumplist] Failed to parse LNK file from directory 2c3e
+2026-06-13 06:16:10,459 WARNING [dissect.target.plugins.os.windows.jumplist] Failed to parse LNK file from directory 2c66
+2026-06-13 06:16:10,479 WARNING [dissect.shellitem.lnk.lnk] Mismatch in read size (88) and actual EXTRA_DATA_BLOCK length (41) for data block (TRACKER_PROPS)
+2026-06-13 06:16:10,544 WARNING [dissect.target.plugins.os.windows.jumplist] Failed to parse LNK file from directory 2c7b
+2026-06-13 06:16:10,613 WARNING [dissect.target.plugins.os.windows.jumplist] Failed to parse LNK file from directory 2c8b
+2026-06-13 06:16:10,679 WARNING [dissect.target.plugins.os.windows.jumplist] Failed to parse LNK file from directory 2c9e
+2026-06-13 06:16:10,683 WARNING [dissect.target.plugins.os.windows.jumplist] Failed to parse LNK file from directory 2c9d
+2026-06-13 06:16:10,740 WARNING [dissect.target.plugins.os.windows.jumplist] Failed to parse LNK file from directory 2cab
+2026-06-13 06:16:10,746 WARNING [dissect.shellitem.lnk.lnk] Mismatch in read size (88) and actual EXTRA_DATA_BLOCK length (41) for data block (TRACKER_PROPS)
+2026-06-13 06:16:10,752 WARNING [dissect.target.plugins.os.windows.jumplist] Failed to parse LNK file from directory 2caf
+2026-06-13 06:16:10,860 WARNING [dissect.target.plugins.os.windows.jumplist] Failed to parse LNK file from directory 2ccc
+2026-06-13 06:16:10,936 WARNING [dissect.target.plugins.os.windows.jumplist] Failed to parse LNK file from directory 2cdb
+2026-06-13 06:16:10,973 WARNING [dissect.shellitem.lnk.lnk] Mismatch in read size (88) and actual EXTRA_DATA_BLOCK length (41) for data block (TRACKER_PROPS)
+2026-06-13 06:16:10,988 WARNING [dissect.target.plugins.os.windows.jumplist] Failed to parse LNK file from directory 2cec
+2026-06-13 06:16:11,070 WARNING [dissect.target.plugins.os.windows.jumplist] Failed to parse LNK file from directory 2cff
+2026-06-13 06:16:11,353 WARNING [dissect.target.plugins.os.windows.jumplist] Failed to parse LNK file from directory 2d50
+2026-06-13 06:16:11,372 WARNING [dissect.target.plugins.os.windows.jumplist] Failed to parse LNK file from directory 2d43
+2026-06-13 06:16:11,483 WARNING [dissect.target.plugins.os.windows.jumplist] Failed to parse LNK file from directory 2d5f
+2026-06-13 06:16:11,528 WARNING [dissect.shellitem.lnk.lnk] Mismatch in read size (88) and actual EXTRA_DATA_BLOCK length (41) for data block (TRACKER_PROPS)
+2026-06-13 06:16:11,607 WARNING [dissect.target.plugins.os.windows.jumplist] Failed to parse LNK file from directory 2da0
+2026-06-13 06:16:11,649 WARNING [dissect.target.plugins.os.windows.jumplist] Failed to parse LNK file from directory 2d8c
+2026-06-13 06:16:11,660 WARNING [dissect.shellitem.lnk.lnk] Mismatch in read size (88) and actual EXTRA_DATA_BLOCK length (41) for data block (TRACKER_PROPS)
+2026-06-13 06:16:11,793 WARNING [dissect.target.plugins.os.windows.jumplist] Failed to parse LNK file from directory 2dab
+2026-06-13 06:16:12,003 WARNING [dissect.shellitem.lnk.lnk] Mismatch in read size (88) and actual EXTRA_DATA_BLOCK length (42) for data block (TRACKER_PROPS)
+2026-06-13 06:16:12,008 WARNING [dissect.shellitem.lnk.lnk] Mismatch in read size (88) and actual EXTRA_DATA_BLOCK length (42) for data block (TRACKER_PROPS)
+2026-06-13 06:16:12,031 WARNING [dissect.shellitem.lnk.lnk] Mismatch in read size (88) and actual EXTRA_DATA_BLOCK length (41) for data block (TRACKER_PROPS)
+2026-06-13 06:16:12,035 WARNING [dissect.shellitem.lnk.lnk] Mismatch in read size (88) and actual EXTRA_DATA_BLOCK length (42) for data block (TRACKER_PROPS)
+2026-06-13 06:16:12,040 WARNING [dissect.shellitem.lnk.lnk] Mismatch in read size (88) and actual EXTRA_DATA_BLOCK length (42) for data block (TRACKER_PROPS)
+2026-06-13 06:16:12,045 WARNING [dissect.shellitem.lnk.lnk] Mismatch in read size (88) and actual EXTRA_DATA_BLOCK length (42) for data block (TRACKER_PROPS)
+2026-06-13 06:16:12,049 WARNING [dissect.shellitem.lnk.lnk] Mismatch in read size (88) and actual EXTRA_DATA_BLOCK length (42) for data block (TRACKER_PROPS)
+2026-06-13 06:16:12,054 WARNING [dissect.shellitem.lnk.lnk] Mismatch in read size (88) and actual EXTRA_DATA_BLOCK length (42) for data block (TRACKER_PROPS)
+2026-06-13 06:16:12,059 WARNING [dissect.shellitem.lnk.lnk] Mismatch in read size (88) and actual EXTRA_DATA_BLOCK length (42) for data block (TRACKER_PROPS)
+2026-06-13 06:16:12,063 WARNING [dissect.shellitem.lnk.lnk] Mismatch in read size (88) and actual EXTRA_DATA_BLOCK length (42) for data block (TRACKER_PROPS)
+2026-06-13 06:16:12,068 WARNING [dissect.shellitem.lnk.lnk] Mismatch in read size (88) and actual EXTRA_DATA_BLOCK length (42) for data block (TRACKER_PROPS)
+2026-06-13 06:16:12,073 WARNING [dissect.shellitem.lnk.lnk] Mismatch in read size (88) and actual EXTRA_DATA_BLOCK length (42) for data block (TRACKER_PROPS)
+2026-06-13 06:16:12,088 WARNING [dissect.shellitem.lnk.lnk] Mismatch in read size (88) and actual EXTRA_DATA_BLOCK length (42) for data block (TRACKER_PROPS)
+2026-06-13 06:16:12,092 WARNING [dissect.shellitem.lnk.lnk] Mismatch in read size (88) and actual EXTRA_DATA_BLOCK length (42) for data block (TRACKER_PROPS)
+2026-06-13 06:16:12,108 WARNING [dissect.target.plugins.os.windows.jumplist] Failed to parse LNK file from directory 2dfc
+2026-06-13 06:16:12,279 WARNING [dissect.target.plugins.os.windows.jumplist] Failed to parse LNK file from directory 2e1f
+2026-06-13 06:16:12,336 WARNING [dissect.target.plugins.os.windows.jumplist] Failed to parse LNK file from directory 2e2e
+2026-06-13 06:16:12,349 WARNING [dissect.target.plugins.os.windows.jumplist] Failed to parse LNK file from directory 2e38
+2026-06-13 06:16:12,357 WARNING [dissect.target.plugins.os.windows.jumplist] Failed to parse LNK file from directory 2e32
+2026-06-13 06:16:12,469 WARNING [dissect.target.plugins.os.windows.jumplist] Failed to parse LNK file from directory 2e4e
+2026-06-13 06:16:12,699 WARNING [dissect.target.plugins.os.windows.jumplist] Failed to parse LNK file from directory 2e82
+2026-06-13 06:16:12,720 WARNING [dissect.target.plugins.os.windows.jumplist] Failed to parse LNK file from directory 2e87
+2026-06-13 06:16:12,852 WARNING [dissect.target.plugins.os.windows.jumplist] Failed to parse LNK file from directory 2ea7
+2026-06-13 06:16:13,041 WARNING [dissect.target.plugins.os.windows.jumplist] Failed to parse LNK file from directory 2ed6
+2026-06-13 06:16:13,178 WARNING [dissect.target.plugins.os.windows.jumplist] Failed to parse LNK file from directory 2ef5
+2026-06-13 06:16:13,190 WARNING [dissect.target.plugins.os.windows.jumplist] Failed to parse LNK file from directory 2efa
+2026-06-13 06:16:13,300 WARNING [dissect.shellitem.lnk.lnk] Mismatch in read size (88) and actual EXTRA_DATA_BLOCK length (41) for data block (TRACKER_PROPS)
+2026-06-13 06:16:13,307 WARNING [dissect.target.plugins.os.windows.jumplist] Failed to parse LNK file from directory 2f18
+2026-06-13 06:16:13,671 WARNING [dissect.target.plugins.os.windows.jumplist] Failed to parse LNK file from directory 2f61
+2026-06-13 06:16:13,878 WARNING [dissect.target.plugins.os.windows.jumplist] Failed to parse LNK file from directory 2f8e
+2026-06-13 06:16:13,923 WARNING [dissect.target.plugins.os.windows.jumplist] Failed to parse LNK file from directory 2f97
+2026-06-13 06:16:13,946 WARNING [dissect.target.plugins.os.windows.jumplist] Failed to parse LNK file from directory 2f9e
+2026-06-13 06:16:14,129 WARNING [dissect.target.plugins.os.windows.jumplist] Failed to parse LNK file from directory 2fc1
+2026-06-13 06:16:14,161 WARNING [dissect.target.plugins.os.windows.jumplist] Failed to parse LNK file from directory 2fc9
+2026-06-13 06:16:14,203 WARNING [dissect.target.plugins.os.windows.jumplist] Failed to parse LNK file from directory 2fd3
+2026-06-13 06:16:14,459 WARNING [dissect.target.plugins.os.windows.jumplist] Failed to parse LNK file from directory 3007
+2026-06-13 06:16:14,562 WARNING [dissect.target.plugins.os.windows.jumplist] Failed to parse LNK file from directory 301d
+2026-06-13 06:16:14,633 WARNING [dissect.target.plugins.os.windows.jumplist] Failed to parse LNK file from directory 302e
+2026-06-13 06:16:14,850 WARNING [dissect.target.plugins.os.windows.jumplist] Failed to parse LNK file from directory 305a
+2026-06-13 06:16:14,938 WARNING [dissect.target.plugins.os.windows.jumplist] Failed to parse LNK file from directory 306a
+2026-06-13 06:16:15,062 WARNING [dissect.target.plugins.os.windows.jumplist] Failed to parse LNK file from directory 3084
+2026-06-13 06:16:15,232 WARNING [dissect.target.plugins.os.windows.jumplist] Failed to parse LNK file from directory 30a6
+2026-06-13 06:16:15,380 WARNING [dissect.target.plugins.os.windows.jumplist] Failed to parse LNK file from directory 30c1
+2026-06-13 06:16:15,418 WARNING [dissect.target.plugins.os.windows.jumplist] Failed to parse LNK file from directory 30cb
+2026-06-13 06:16:15,431 WARNING [dissect.target.plugins.os.windows.jumplist] Failed to parse LNK file from directory 30cf
+2026-06-13 06:16:15,659 WARNING [dissect.target.plugins.os.windows.jumplist] Failed to parse LNK file from directory 30fe
+2026-06-13 06:16:15,778 WARNING [dissect.target.plugins.os.windows.jumplist] Failed to parse LNK file from directory 3114
+2026-06-13 06:16:15,851 WARNING [dissect.target.plugins.os.windows.jumplist] Failed to parse LNK file from directory 3124
+2026-06-13 06:16:16,095 WARNING [dissect.target.plugins.os.windows.jumplist] Failed to parse LNK file from directory bcb
+2026-06-13 06:16:16,120 WARNING [dissect.target.plugins.os.windows.jumplist] Failed to parse LNK file from directory bd1
+2026-06-13 06:16:16,134 WARNING [dissect.target.plugins.os.windows.jumplist] Failed to parse LNK file from directory bd7
+2026-06-13 06:16:16,141 WARNING [dissect.target.plugins.os.windows.jumplist] Failed to parse LNK file from directory bda
+2026-06-13 06:16:16,213 WARNING [dissect.target.plugins.os.windows.jumplist] Failed to parse LNK file from directory bed
+2026-06-13 06:16:16,260 WARNING [dissect.target.plugins.os.windows.jumplist] Failed to parse LNK file from directory bfb
+2026-06-13 06:16:16,277 WARNING [dissect.shellitem.lnk.lnk] Mismatch in read size (88) and actual EXTRA_DATA_BLOCK length (41) for data block (TRACKER_PROPS)
+2026-06-13 06:16:16,481 WARNING [dissect.target.plugins.os.windows.jumplist] Failed to parse LNK file from directory c33
+2026-06-13 06:16:16,495 WARNING [dissect.target.plugins.os.windows.jumplist] Failed to parse LNK file from directory c3c
+2026-06-13 06:16:16,829 WARNING [dissect.target.plugins.os.windows.jumplist] Failed to parse LNK file from directory c94
+2026-06-13 06:16:16,866 WARNING [dissect.target.plugins.os.windows.jumplist] Failed to parse LNK file from directory c99
+2026-06-13 06:16:16,944 WARNING [dissect.target.plugins.os.windows.jumplist] Failed to parse LNK file from directory caf
+2026-06-13 06:16:17,156 WARNING [dissect.target.plugins.os.windows.jumplist] Failed to parse LNK file from directory ce1
+2026-06-13 06:16:17,176 WARNING [dissect.target.plugins.os.windows.jumplist] Failed to parse LNK file from directory cec
+2026-06-13 06:16:17,192 WARNING [dissect.target.plugins.os.windows.jumplist] Failed to parse LNK file from directory cee
+2026-06-13 06:16:17,220 WARNING [dissect.target.plugins.os.windows.jumplist] Failed to parse LNK file from directory cf3
+2026-06-13 06:16:17,263 WARNING [dissect.target.plugins.os.windows.jumplist] Failed to parse LNK file from directory d80
+2026-06-13 06:16:17,414 WARNING [dissect.target.plugins.os.windows.jumplist] Failed to parse LNK file from directory d23
+2026-06-13 06:16:17,495 WARNING [dissect.target.plugins.os.windows.jumplist] Failed to parse LNK file from directory d39
+2026-06-13 06:16:17,626 WARNING [dissect.target.plugins.os.windows.jumplist] Failed to parse LNK file from directory d5d
+2026-06-13 06:16:17,707 WARNING [dissect.target.plugins.os.windows.jumplist] Failed to parse LNK file from directory d71
+2026-06-13 06:16:17,714 WARNING [dissect.target.plugins.os.windows.jumplist] Failed to parse LNK file from directory d76
+2026-06-13 06:16:17,731 WARNING [dissect.target.plugins.os.windows.jumplist] Failed to parse LNK file from directory d7a
+2026-06-13 06:16:17,747 WARNING [dissect.target.plugins.os.windows.jumplist] Failed to parse LNK file from directory d7d
+2026-06-13 06:16:17,866 WARNING [dissect.target.plugins.os.windows.jumplist] Failed to parse LNK file from directory d97
+2026-06-13 06:16:17,918 WARNING [dissect.target.plugins.os.windows.jumplist] Failed to parse LNK file from directory da3
+2026-06-13 06:16:18,043 WARNING [dissect.target.plugins.os.windows.jumplist] Failed to parse LNK file from directory dc6
+2026-06-13 06:16:18,065 WARNING [dissect.shellitem.lnk.lnk] Mismatch in read size (88) and actual EXTRA_DATA_BLOCK length (41) for data block (TRACKER_PROPS)
+2026-06-13 06:16:18,221 WARNING [dissect.target.plugins.os.windows.jumplist] Failed to parse LNK file from directory df1
+2026-06-13 06:16:18,466 WARNING [dissect.target.plugins.os.windows.jumplist] Failed to parse LNK file from directory e2d
+2026-06-13 06:16:18,554 WARNING [dissect.target.plugins.os.windows.jumplist] Failed to parse LNK file from directory e42
+2026-06-13 06:16:18,638 WARNING [dissect.target.plugins.os.windows.jumplist] Failed to parse LNK file from directory e57
+2026-06-13 06:16:18,716 WARNING [dissect.target.plugins.os.windows.jumplist] Failed to parse LNK file from directory e69
+2026-06-13 06:16:18,837 WARNING [dissect.target.plugins.os.windows.jumplist] Failed to parse LNK file from directory e85
+2026-06-13 06:16:19,196 WARNING [dissect.target.plugins.os.windows.jumplist] Failed to parse LNK file from directory edb
+2026-06-13 06:16:19,228 WARNING [dissect.target.plugins.os.windows.jumplist] Failed to parse LNK file from directory ee2
+2026-06-13 06:16:19,535 WARNING [dissect.shellitem.lnk.lnk] Mismatch in read size (88) and actual EXTRA_DATA_BLOCK length (42) for data block (TRACKER_PROPS)
+2026-06-13 06:16:19,540 WARNING [dissect.shellitem.lnk.lnk] Mismatch in read size (88) and actual EXTRA_DATA_BLOCK length (42) for data block (TRACKER_PROPS)
+2026-06-13 06:16:19,545 WARNING [dissect.shellitem.lnk.lnk] Mismatch in read size (88) and actual EXTRA_DATA_BLOCK length (42) for data block (TRACKER_PROPS)
+2026-06-13 06:16:19,550 WARNING [dissect.shellitem.lnk.lnk] Mismatch in read size (88) and actual EXTRA_DATA_BLOCK length (42) for data block (TRACKER_PROPS)
+2026-06-13 06:16:19,635 WARNING [dissect.target.plugins.os.windows.jumplist] Failed to parse LNK file from directory f61
+2026-06-13 06:16:19,702 WARNING [dissect.target.plugins.os.windows.jumplist] Failed to parse LNK file from directory f4f
+2026-06-13 06:16:19,733 WARNING [dissect.target.plugins.os.windows.jumplist] Failed to parse LNK file from directory f55
+2026-06-13 06:16:19,835 WARNING [dissect.target.plugins.os.windows.jumplist] Failed to parse LNK file from directory f6d
+2026-06-13 06:16:19,994 WARNING [dissect.target.plugins.os.windows.jumplist] Failed to parse LNK file from directory f99
+2026-06-13 06:16:20,276 WARNING [dissect.target.plugins.os.windows.jumplist] Failed to parse LNK file from directory fcf
+2026-06-13 06:16:20,442 WARNING [dissect.target.plugins.os.windows.jumplist] Failed to parse LNK file from directory ff7
+2026-06-13 06:16:20,512 WARNING [dissect.target.plugins.os.windows.jumplist] Failed to parse LNK file from directory 1002
+2026-06-13 06:16:20,662 WARNING [dissect.target.plugins.os.windows.jumplist] Failed to parse LNK file from directory 1025
+2026-06-13 06:16:20,768 WARNING [dissect.target.plugins.os.windows.jumplist] Failed to parse LNK file from directory 1060
+2026-06-13 06:16:20,989 WARNING [dissect.shellitem.lnk.lnk] Mismatch in read size (88) and actual EXTRA_DATA_BLOCK length (42) for data block (TRACKER_PROPS)
+2026-06-13 06:16:21,012 WARNING [dissect.shellitem.lnk.lnk] Mismatch in read size (88) and actual EXTRA_DATA_BLOCK length (42) for data block (TRACKER_PROPS)
+2026-06-13 06:16:21,017 WARNING [dissect.shellitem.lnk.lnk] Mismatch in read size (88) and actual EXTRA_DATA_BLOCK length (42) for data block (TRACKER_PROPS)
+2026-06-13 06:16:21,022 WARNING [dissect.shellitem.lnk.lnk] Mismatch in read size (88) and actual EXTRA_DATA_BLOCK length (42) for data block (TRACKER_PROPS)
+2026-06-13 06:16:21,071 WARNING [dissect.target.plugins.os.windows.jumplist] Failed to parse LNK file from directory 1090
+2026-06-13 06:16:21,128 WARNING [dissect.target.plugins.os.windows.jumplist] Failed to parse LNK file from directory 108e
+2026-06-13 06:16:21,273 WARNING [dissect.target.plugins.os.windows.jumplist] Failed to parse LNK file from directory 10a9
+2026-06-13 06:16:21,416 WARNING [dissect.target.plugins.os.windows.jumplist] Failed to parse LNK file from directory 10c5
+2026-06-13 06:16:21,477 WARNING [dissect.target.plugins.os.windows.jumplist] Failed to parse LNK file from directory 10d1
+2026-06-13 06:16:21,520 WARNING [dissect.target.plugins.os.windows.jumplist] Failed to parse LNK file from directory 10db
+2026-06-13 06:16:22,059 WARNING [dissect.target.plugins.os.windows.jumplist] Failed to parse LNK file from directory 114c
+2026-06-13 06:16:22,240 WARNING [dissect.target.plugins.os.windows.jumplist] Failed to parse LNK file from directory 116d
+2026-06-13 06:16:22,351 WARNING [dissect.target.plugins.os.windows.jumplist] Failed to parse LNK file from directory 1186
+2026-06-13 06:16:22,527 WARNING [dissect.target.plugins.os.windows.jumplist] Failed to parse LNK file from directory bcc
+2026-06-13 06:16:22,531 WARNING [dissect.target.plugins.os.windows.jumplist] Failed to parse LNK file from directory bca
+2026-06-13 06:16:22,618 WARNING [dissect.target.plugins.os.windows.jumplist] Failed to parse LNK file from directory be2
+2026-06-13 06:16:22,625 WARNING [dissect.target.plugins.os.windows.jumplist] Failed to parse LNK file from directory be3
+2026-06-13 06:16:22,747 WARNING [dissect.target.plugins.os.windows.jumplist] Failed to parse LNK file from directory c04
+2026-06-13 06:16:22,788 WARNING [dissect.target.plugins.os.windows.jumplist] Failed to parse LNK file from directory c0e
+2026-06-13 06:16:22,813 WARNING [dissect.target.plugins.os.windows.jumplist] Failed to parse LNK file from directory c13
+2026-06-13 06:16:22,825 WARNING [dissect.target.plugins.os.windows.jumplist] Failed to parse LNK file from directory c17
+2026-06-13 06:16:22,839 WARNING [dissect.target.plugins.os.windows.jumplist] Failed to parse LNK file from directory c1b
+2026-06-13 06:16:23,103 WARNING [dissect.target.plugins.os.windows.jumplist] Failed to parse LNK file from directory c63
+2026-06-13 06:16:23,122 WARNING [dissect.target.plugins.os.windows.jumplist] Failed to parse LNK file from directory c6c
+2026-06-13 06:16:23,249 WARNING [dissect.target.plugins.os.windows.jumplist] Failed to parse LNK file from directory c86
+2026-06-13 06:16:23,346 WARNING [dissect.shellitem.lnk.lnk] Mismatch in read size (88) and actual EXTRA_DATA_BLOCK length (41) for data block (TRACKER_PROPS)
+2026-06-13 06:16:23,461 WARNING [dissect.target.plugins.os.windows.jumplist] Failed to parse LNK file from directory cb9
+2026-06-13 06:16:23,524 WARNING [dissect.target.plugins.os.windows.jumplist] Failed to parse LNK file from directory cc9
+2026-06-13 06:16:23,630 WARNING [dissect.target.plugins.os.windows.jumplist] Failed to parse LNK file from directory ce7
+2026-06-13 06:16:23,779 WARNING [dissect.shellitem.lnk.lnk] Mismatch in read size (88) and actual EXTRA_DATA_BLOCK length (41) for data block (TRACKER_PROPS)
+2026-06-13 06:16:23,816 WARNING [dissect.target.plugins.os.windows.jumplist] Failed to parse LNK file from directory d12
+2026-06-13 06:16:23,863 WARNING [dissect.target.plugins.os.windows.jumplist] Failed to parse LNK file from directory d1d
+2026-06-13 06:16:23,879 WARNING [dissect.target.plugins.os.windows.jumplist] Failed to parse LNK file from directory d24
+2026-06-13 06:16:23,916 WARNING [dissect.target.plugins.os.windows.jumplist] Failed to parse LNK file from directory d29
+2026-06-13 06:16:23,978 WARNING [dissect.target.plugins.os.windows.jumplist] Failed to parse LNK file from directory d39
+2026-06-13 06:16:24,001 WARNING [dissect.target.plugins.os.windows.jumplist] Failed to parse LNK file from directory d60
+2026-06-13 06:16:24,006 WARNING [dissect.target.plugins.os.windows.jumplist] Failed to parse LNK file from directory d50
+2026-06-13 06:16:24,010 WARNING [dissect.target.plugins.os.windows.jumplist] Failed to parse LNK file from directory d48
+2026-06-13 06:16:24,037 WARNING [dissect.target.plugins.os.windows.jumplist] Failed to parse LNK file from directory d45
+2026-06-13 06:16:24,133 WARNING [dissect.target.plugins.os.windows.jumplist] Failed to parse LNK file from directory d5d
+2026-06-13 06:16:24,424 WARNING [dissect.shellitem.lnk.lnk] Mismatch in read size (88) and actual EXTRA_DATA_BLOCK length (41) for data block (TRACKER_PROPS)
+2026-06-13 06:16:24,426 WARNING [dissect.target.plugins.os.windows.jumplist] Failed to parse LNK file from directory da2
+2026-06-13 06:16:24,475 WARNING [dissect.target.plugins.os.windows.jumplist] Failed to parse LNK file from directory dad
+2026-06-13 06:16:24,490 WARNING [dissect.target.plugins.os.windows.jumplist] Failed to parse LNK file from directory db2
+2026-06-13 06:16:24,533 WARNING [dissect.target.plugins.os.windows.jumplist] Failed to parse LNK file from directory dbe
+2026-06-13 06:16:24,690 WARNING [dissect.target.plugins.os.windows.jumplist] Failed to parse LNK file from directory de4
+2026-06-13 06:16:24,756 WARNING [dissect.target.plugins.os.windows.jumplist] Failed to parse LNK file from directory df2
+2026-06-13 06:16:24,825 WARNING [dissect.shellitem.lnk.lnk] Mismatch in read size (88) and actual EXTRA_DATA_BLOCK length (42) for data block (TRACKER_PROPS)
+2026-06-13 06:16:24,969 WARNING [dissect.shellitem.lnk.lnk] Mismatch in read size (88) and actual EXTRA_DATA_BLOCK length (42) for data block (TRACKER_PROPS)
+2026-06-13 06:16:24,974 WARNING [dissect.shellitem.lnk.lnk] Mismatch in read size (88) and actual EXTRA_DATA_BLOCK length (42) for data block (TRACKER_PROPS)
+2026-06-13 06:16:24,980 WARNING [dissect.shellitem.lnk.lnk] Mismatch in read size (88) and actual EXTRA_DATA_BLOCK length (42) for data block (TRACKER_PROPS)
+2026-06-13 06:16:25,348 WARNING [dissect.target.plugins.os.windows.jumplist] Failed to parse LNK file from directory e79
+2026-06-13 06:16:25,364 WARNING [dissect.target.plugins.os.windows.jumplist] Failed to parse LNK file from directory e7f
+2026-06-13 06:16:25,431 WARNING [dissect.target.plugins.os.windows.jumplist] Failed to parse LNK file from directory e8e
+2026-06-13 06:16:25,565 WARNING [dissect.target.plugins.os.windows.jumplist] Failed to parse LNK file from directory ead
+2026-06-13 06:16:25,578 WARNING [dissect.target.plugins.os.windows.jumplist] Failed to parse LNK file from directory eb4
+2026-06-13 06:16:25,642 WARNING [dissect.target.plugins.os.windows.jumplist] Failed to parse LNK file from directory ed0
+2026-06-13 06:16:25,803 WARNING [dissect.target.plugins.os.windows.jumplist] Failed to parse LNK file from directory ee5
+2026-06-13 06:16:25,842 WARNING [dissect.target.plugins.os.windows.jumplist] Failed to parse LNK file from directory ef8
+2026-06-13 06:16:25,878 WARNING [dissect.target.plugins.os.windows.jumplist] Failed to parse LNK file from directory efc
+2026-06-13 06:16:25,905 WARNING [dissect.shellitem.lnk.lnk] Mismatch in read size (88) and actual EXTRA_DATA_BLOCK length (41) for data block (TRACKER_PROPS)
+2026-06-13 06:16:25,962 WARNING [dissect.target.plugins.os.windows.jumplist] Failed to parse LNK file from directory f07
+2026-06-13 06:16:25,967 WARNING [dissect.target.plugins.os.windows.jumplist] Failed to parse LNK file from directory f0c
+2026-06-13 06:16:25,999 WARNING [dissect.shellitem.lnk.lnk] Mismatch in read size (88) and actual EXTRA_DATA_BLOCK length (41) for data block (TRACKER_PROPS)
+2026-06-13 06:16:26,070 WARNING [dissect.target.plugins.os.windows.jumplist] Failed to parse LNK file from directory f30
+2026-06-13 06:16:26,193 WARNING [dissect.shellitem.lnk.lnk] Mismatch in read size (88) and actual EXTRA_DATA_BLOCK length (41) for data block (TRACKER_PROPS)
+2026-06-13 06:16:26,242 WARNING [dissect.target.plugins.os.windows.jumplist] Failed to parse LNK file from directory f46
+2026-06-13 06:16:26,249 WARNING [dissect.shellitem.lnk.lnk] Mismatch in read size (88) and actual EXTRA_DATA_BLOCK length (41) for data block (TRACKER_PROPS)
+2026-06-13 06:16:26,295 WARNING [dissect.target.plugins.os.windows.jumplist] Failed to parse LNK file from directory f52
+2026-06-13 06:16:26,361 WARNING [dissect.shellitem.lnk.lnk] Mismatch in read size (88) and actual EXTRA_DATA_BLOCK length (42) for data block (TRACKER_PROPS)
+2026-06-13 06:16:26,394 WARNING [dissect.shellitem.lnk.lnk] Mismatch in read size (88) and actual EXTRA_DATA_BLOCK length (41) for data block (TRACKER_PROPS)
+2026-06-13 06:16:26,403 WARNING [dissect.shellitem.lnk.lnk] Mismatch in read size (88) and actual EXTRA_DATA_BLOCK length (42) for data block (TRACKER_PROPS)
+2026-06-13 06:16:26,409 WARNING [dissect.shellitem.lnk.lnk] Mismatch in read size (88) and actual EXTRA_DATA_BLOCK length (42) for data block (TRACKER_PROPS)
+2026-06-13 06:16:26,414 WARNING [dissect.shellitem.lnk.lnk] Mismatch in read size (88) and actual EXTRA_DATA_BLOCK length (42) for data block (TRACKER_PROPS)
+2026-06-13 06:16:26,825 WARNING [dissect.target.plugins.os.windows.jumplist] Failed to parse LNK file from directory fc1
+2026-06-13 06:16:26,860 WARNING [dissect.shellitem.lnk.lnk] Mismatch in read size (88) and actual EXTRA_DATA_BLOCK length (41) for data block (TRACKER_PROPS)
+2026-06-13 06:16:26,991 WARNING [dissect.target.plugins.os.windows.jumplist] Failed to parse LNK file from directory fe5
+2026-06-13 06:16:27,038 WARNING [dissect.target.plugins.os.windows.jumplist] Failed to parse LNK file from directory ff4
+2026-06-13 06:16:27,140 WARNING [dissect.target.plugins.os.windows.jumplist] Failed to parse LNK file from directory 1006
+2026-06-13 06:16:27,398 WARNING [dissect.target.plugins.os.windows.jumplist] Failed to parse LNK file from directory 1060
+2026-06-13 06:16:27,527 WARNING [dissect.target.plugins.os.windows.jumplist] Failed to parse LNK file from directory 105b
+2026-06-13 06:16:27,616 WARNING [dissect.target.plugins.os.windows.jumplist] Failed to parse LNK file from directory 106f
+2026-06-13 06:16:27,660 WARNING [dissect.target.plugins.os.windows.jumplist] Failed to parse LNK file from directory 107c
+2026-06-13 06:16:28,510 WARNING [dissect.target.plugins.os.windows.jumplist] Failed to parse LNK file from directory 4
+2026-06-13 06:16:28,659 WARNING [dissect.target.plugins.os.windows.jumplist] Failed to parse LNK file from directory 900
+2026-06-13 06:16:28,720 WARNING [dissect.target.plugins.os.windows.jumplist] Failed to parse LNK file from directory 80b
+2026-06-13 06:16:28,762 WARNING [dissect.target.plugins.os.windows.jumplist] Failed to parse LNK file from directory 817
+2026-06-13 06:16:28,857 WARNING [dissect.target.plugins.os.windows.jumplist] Failed to parse LNK file from directory 832
+2026-06-13 06:16:28,865 WARNING [dissect.target.plugins.os.windows.jumplist] Failed to parse LNK file from directory 833
+2026-06-13 06:16:29,141 WARNING [dissect.target.plugins.os.windows.jumplist] Failed to parse LNK file from directory 890
+2026-06-13 06:16:29,338 WARNING [dissect.target.plugins.os.windows.jumplist] Failed to parse LNK file from directory 8b5
+2026-06-13 06:16:29,366 WARNING [dissect.shellitem.lnk.lnk] Mismatch in read size (88) and actual EXTRA_DATA_BLOCK length (41) for data block (TRACKER_PROPS)
+2026-06-13 06:16:29,394 WARNING [dissect.target.plugins.os.windows.jumplist] Failed to parse LNK file from directory 8c2
+2026-06-13 06:16:29,562 WARNING [dissect.target.plugins.os.windows.jumplist] Failed to parse LNK file from directory 8f8
+2026-06-13 06:16:29,620 WARNING [dissect.shellitem.lnk.lnk] Mismatch in read size (88) and actual EXTRA_DATA_BLOCK length (41) for data block (TRACKER_PROPS)
+2026-06-13 06:16:29,646 WARNING [dissect.target.plugins.os.windows.jumplist] Failed to parse LNK file from directory 903
+2026-06-13 06:16:29,791 WARNING [dissect.target.plugins.os.windows.jumplist] Failed to parse LNK file from directory 92e
+2026-06-13 06:16:29,827 WARNING [dissect.target.plugins.os.windows.jumplist] Failed to parse LNK file from directory 937
+2026-06-13 06:16:30,045 WARNING [dissect.target.plugins.os.windows.jumplist] Failed to parse LNK file from directory 978
+2026-06-13 06:16:30,083 WARNING [dissect.target.plugins.os.windows.jumplist] Failed to parse LNK file from directory 979
+2026-06-13 06:16:30,114 WARNING [dissect.shellitem.lnk.lnk] Mismatch in read size (88) and actual EXTRA_DATA_BLOCK length (41) for data block (TRACKER_PROPS)
+2026-06-13 06:16:30,318 WARNING [dissect.target.plugins.os.windows.jumplist] Failed to parse LNK file from directory 9bc
+2026-06-13 06:16:30,379 WARNING [dissect.target.plugins.os.windows.jumplist] Failed to parse LNK file from directory 9c7
+2026-06-13 06:16:30,417 WARNING [dissect.target.plugins.os.windows.jumplist] Failed to parse LNK file from directory 9d2
+2026-06-13 06:16:30,512 WARNING [dissect.target.plugins.os.windows.jumplist] Failed to parse LNK file from directory 9e9
+2026-06-13 06:16:30,621 WARNING [dissect.target.plugins.os.windows.jumplist] Failed to parse LNK file from directory a02
+2026-06-13 06:16:30,743 WARNING [dissect.shellitem.lnk.lnk] Mismatch in read size (88) and actual EXTRA_DATA_BLOCK length (41) for data block (TRACKER_PROPS)
+2026-06-13 06:16:30,938 WARNING [dissect.shellitem.lnk.lnk] Mismatch in read size (88) and actual EXTRA_DATA_BLOCK length (41) for data block (TRACKER_PROPS)
+2026-06-13 06:16:30,983 WARNING [dissect.target.plugins.os.windows.jumplist] Failed to parse LNK file from directory a5d
+2026-06-13 06:16:31,215 WARNING [dissect.target.plugins.os.windows.jumplist] Failed to parse LNK file from directory a97
+2026-06-13 06:16:31,287 WARNING [dissect.target.plugins.os.windows.jumplist] Failed to parse LNK file from directory aac
+2026-06-13 06:16:31,291 WARNING [dissect.target.plugins.os.windows.jumplist] Failed to parse LNK file from directory aaa
+2026-06-13 06:16:31,341 WARNING [dissect.target.plugins.os.windows.jumplist] Failed to parse LNK file from directory ab6
+2026-06-13 06:16:31,436 WARNING [dissect.target.plugins.os.windows.jumplist] Failed to parse LNK file from directory acb
+2026-06-13 06:16:31,553 WARNING [dissect.target.plugins.os.windows.jumplist] Failed to parse LNK file from directory aea
+2026-06-13 06:16:31,619 WARNING [dissect.target.plugins.os.windows.jumplist] Failed to parse LNK file from directory afb
+2026-06-13 06:16:31,804 WARNING [dissect.target.plugins.os.windows.jumplist] Failed to parse LNK file from directory b25
+2026-06-13 06:16:31,914 WARNING [dissect.target.plugins.os.windows.jumplist] Failed to parse LNK file from directory b48
+2026-06-13 06:16:32,074 WARNING [dissect.target.plugins.os.windows.jumplist] Failed to parse LNK file from directory b6a
+2026-06-13 06:16:32,078 WARNING [dissect.target.plugins.os.windows.jumplist] Failed to parse LNK file from directory b69
+2026-06-13 06:16:32,093 WARNING [dissect.target.plugins.os.windows.jumplist] Failed to parse LNK file from directory b78
+2026-06-13 06:16:32,111 WARNING [dissect.shellitem.lnk.lnk] Mismatch in read size (88) and actual EXTRA_DATA_BLOCK length (41) for data block (TRACKER_PROPS)
+2026-06-13 06:16:32,126 WARNING [dissect.target.plugins.os.windows.jumplist] Failed to parse LNK file from directory b7c
+2026-06-13 06:16:32,281 WARNING [dissect.target.plugins.os.windows.jumplist] Failed to parse LNK file from directory b99
+2026-06-13 06:16:32,488 WARNING [dissect.target.plugins.os.windows.jumplist] Failed to parse LNK file from directory bcb
+2026-06-13 06:16:32,561 WARNING [dissect.target.plugins.os.windows.jumplist] Failed to parse LNK file from directory bdd
+2026-06-13 06:16:32,597 WARNING [dissect.shellitem.lnk.lnk] Mismatch in read size (88) and actual EXTRA_DATA_BLOCK length (41) for data block (TRACKER_PROPS)
+2026-06-13 06:16:32,629 WARNING [dissect.target.plugins.os.windows.jumplist] Failed to parse LNK file from directory bed
+2026-06-13 06:16:32,771 WARNING [dissect.target.plugins.os.windows.jumplist] Failed to parse LNK file from directory c0d
+2026-06-13 06:16:32,831 WARNING [dissect.target.plugins.os.windows.jumplist] Failed to parse LNK file from directory c1e
+2026-06-13 06:16:32,875 WARNING [dissect.target.plugins.os.windows.jumplist] Failed to parse LNK file from directory c25
+2026-06-13 06:16:32,896 WARNING [dissect.target.plugins.os.windows.jumplist] Failed to parse LNK file from directory c2b
+2026-06-13 06:16:32,949 WARNING [dissect.target.plugins.os.windows.jumplist] Failed to parse LNK file from directory c3c
+2026-06-13 06:16:33,070 WARNING [dissect.target.plugins.os.windows.jumplist] Failed to parse LNK file from directory c53
+2026-06-13 06:16:33,197 WARNING [dissect.target.plugins.os.windows.jumplist] Failed to parse LNK file from directory c72
+2026-06-13 06:16:33,435 WARNING [dissect.target.plugins.os.windows.jumplist] Failed to parse LNK file from directory ca2
+2026-06-13 06:16:33,476 WARNING [dissect.shellitem.lnk.lnk] Mismatch in read size (88) and actual EXTRA_DATA_BLOCK length (42) for data block (TRACKER_PROPS)
+2026-06-13 06:16:33,501 WARNING [dissect.target.plugins.os.windows.jumplist] Failed to parse LNK file from directory cb2
+2026-06-13 06:16:33,662 WARNING [dissect.target.plugins.os.windows.jumplist] Failed to parse LNK file from directory cd2
+2026-06-13 06:16:33,705 WARNING [dissect.target.plugins.os.windows.jumplist] Failed to parse LNK file from directory cd9
+2026-06-13 06:16:33,814 WARNING [dissect.target.plugins.os.windows.jumplist] Failed to parse LNK file from directory cf2
+2026-06-13 06:16:33,926 WARNING [dissect.target.plugins.os.windows.jumplist] Failed to parse LNK file from directory d0c
+2026-06-13 06:16:34,038 WARNING [dissect.target.plugins.os.windows.jumplist] Failed to parse LNK file from directory d30
+2026-06-13 06:16:34,056 WARNING [dissect.target.plugins.os.windows.jumplist] Failed to parse LNK file from directory d21
+2026-06-13 06:16:34,133 WARNING [dissect.target.plugins.os.windows.jumplist] Failed to parse LNK file from directory d36
+2026-06-13 06:16:34,213 WARNING [dissect.target.plugins.os.windows.jumplist] Failed to parse LNK file from directory d43
+2026-06-13 06:16:34,356 WARNING [dissect.target.plugins.os.windows.jumplist] Failed to parse LNK file from directory d64
+2026-06-13 06:16:34,435 WARNING [dissect.shellitem.lnk.lnk] Mismatch in read size (88) and actual EXTRA_DATA_BLOCK length (41) for data block (TRACKER_PROPS)
+2026-06-13 06:16:34,495 WARNING [dissect.target.plugins.os.windows.jumplist] Failed to parse LNK file from directory d7e
+2026-06-13 06:16:34,530 WARNING [dissect.target.plugins.os.windows.jumplist] Failed to parse LNK file from directory d84
+2026-06-13 06:16:34,572 WARNING [dissect.target.plugins.os.windows.jumplist] Failed to parse LNK file from directory d89
+2026-06-13 06:16:34,650 WARNING [dissect.target.plugins.os.windows.jumplist] Failed to parse LNK file from directory d9c
+2026-06-13 06:16:34,817 WARNING [dissect.target.plugins.os.windows.jumplist] Failed to parse LNK file from directory dbb
+2026-06-13 06:16:34,876 WARNING [dissect.target.plugins.os.windows.jumplist] Failed to parse LNK file from directory dc1
+2026-06-13 06:16:35,064 WARNING [dissect.shellitem.lnk.lnk] Mismatch in read size (88) and actual EXTRA_DATA_BLOCK length (42) for data block (TRACKER_PROPS)
+2026-06-13 06:16:35,081 WARNING [dissect.shellitem.lnk.lnk] Mismatch in read size (88) and actual EXTRA_DATA_BLOCK length (42) for data block (TRACKER_PROPS)
+2026-06-13 06:16:35,088 WARNING [dissect.shellitem.lnk.lnk] Mismatch in read size (88) and actual EXTRA_DATA_BLOCK length (42) for data block (TRACKER_PROPS)
+2026-06-13 06:16:35,094 WARNING [dissect.shellitem.lnk.lnk] Mismatch in read size (88) and actual EXTRA_DATA_BLOCK length (42) for data block (TRACKER_PROPS)
+2026-06-13 06:16:35,100 WARNING [dissect.shellitem.lnk.lnk] Mismatch in read size (88) and actual EXTRA_DATA_BLOCK length (42) for data block (TRACKER_PROPS)
+2026-06-13 06:16:35,126 WARNING [dissect.target.plugins.os.windows.jumplist] Failed to parse LNK file from directory df3
+2026-06-13 06:16:35,180 WARNING [dissect.target.plugins.os.windows.jumplist] Failed to parse LNK file from directory dfe
+2026-06-13 06:16:35,246 WARNING [dissect.target.plugins.os.windows.jumplist] Failed to parse LNK file from directory e03
+2026-06-13 06:16:35,292 WARNING [dissect.target.plugins.os.windows.jumplist] Failed to parse LNK file from directory e0e
+2026-06-13 06:16:35,421 WARNING [dissect.target.plugins.os.windows.jumplist] Failed to parse LNK file from directory e21
+2026-06-13 06:16:35,463 WARNING [dissect.target.plugins.os.windows.jumplist] Failed to parse LNK file from directory e2b
+2026-06-13 06:16:35,879 WARNING [dissect.target.plugins.os.windows.jumplist] Failed to parse LNK file from directory e7c
+2026-06-13 06:16:35,901 WARNING [dissect.target.plugins.os.windows.jumplist] Failed to parse LNK file from directory e7e
+2026-06-13 06:16:35,933 WARNING [dissect.target.plugins.os.windows.jumplist] Failed to parse LNK file from directory e90
+2026-06-13 06:16:35,991 WARNING [dissect.target.plugins.os.windows.jumplist] Failed to parse LNK file from directory e8a
+2026-06-13 06:16:36,121 WARNING [dissect.target.plugins.os.windows.jumplist] Failed to parse LNK file from directory ea8
+2026-06-13 06:16:36,136 WARNING [dissect.target.plugins.os.windows.jumplist] Failed to parse LNK file from directory ea1
+2026-06-13 06:16:36,191 WARNING [dissect.target.plugins.os.windows.jumplist] Failed to parse LNK file from directory eae
+2026-06-13 06:16:36,252 WARNING [dissect.target.plugins.os.windows.jumplist] Failed to parse LNK file from directory ebc
+2026-06-13 06:16:36,467 WARNING [dissect.target.plugins.os.windows.jumplist] Failed to parse LNK file from directory ed7
+2026-06-13 06:16:36,718 WARNING [dissect.shellitem.lnk.lnk] Mismatch in read size (88) and actual EXTRA_DATA_BLOCK length (45) for data block (TRACKER_PROPS)
+2026-06-13 06:16:36,723 WARNING [dissect.shellitem.lnk.lnk] Mismatch in read size (88) and actual EXTRA_DATA_BLOCK length (45) for data block (TRACKER_PROPS)
+2026-06-13 06:16:36,727 WARNING [dissect.shellitem.lnk.lnk] Mismatch in read size (88) and actual EXTRA_DATA_BLOCK length (45) for data block (TRACKER_PROPS)
+2026-06-13 06:16:36,782 WARNING [dissect.shellitem.lnk.lnk] Mismatch in read size (88) and actual EXTRA_DATA_BLOCK length (45) for data block (TRACKER_PROPS)
+2026-06-13 06:16:36,787 WARNING [dissect.shellitem.lnk.lnk] Mismatch in read size (88) and actual EXTRA_DATA_BLOCK length (45) for data block (TRACKER_PROPS)
+2026-06-13 06:16:36,815 WARNING [dissect.shellitem.lnk.lnk] Mismatch in read size (88) and actual EXTRA_DATA_BLOCK length (45) for data block (TRACKER_PROPS)
+2026-06-13 06:16:36,823 WARNING [dissect.shellitem.lnk.lnk] Mismatch in read size (88) and actual EXTRA_DATA_BLOCK length (45) for data block (TRACKER_PROPS)
+2026-06-13 06:16:36,828 WARNING [dissect.shellitem.lnk.lnk] Mismatch in read size (88) and actual EXTRA_DATA_BLOCK length (45) for data block (TRACKER_PROPS)
+2026-06-13 06:16:36,832 WARNING [dissect.shellitem.lnk.lnk] Mismatch in read size (88) and actual EXTRA_DATA_BLOCK length (45) for data block (TRACKER_PROPS)
+2026-06-13 06:16:36,834 WARNING [dissect.target.plugins.os.windows.jumplist] Failed to parse LNK file from directory c
+2026-06-13 06:16:36,840 WARNING [dissect.shellitem.lnk.lnk] Mismatch in read size (88) and actual EXTRA_DATA_BLOCK length (45) for data block (TRACKER_PROPS)
+2026-06-13 06:16:36,853 WARNING [dissect.shellitem.lnk.lnk] Mismatch in read size (88) and actual EXTRA_DATA_BLOCK length (45) for data block (TRACKER_PROPS)
+2026-06-13 06:16:36,860 WARNING [dissect.shellitem.lnk.lnk] Mismatch in read size (88) and actual EXTRA_DATA_BLOCK length (45) for data block (TRACKER_PROPS)
+2026-06-13 06:16:36,870 WARNING [dissect.shellitem.lnk.lnk] Mismatch in read size (88) and actual EXTRA_DATA_BLOCK length (45) for data block (TRACKER_PROPS)
+2026-06-13 06:16:36,895 WARNING [dissect.shellitem.lnk.lnk] Mismatch in read size (88) and actual EXTRA_DATA_BLOCK length (45) for data block (TRACKER_PROPS)
+2026-06-13 06:16:36,927 WARNING [dissect.shellitem.lnk.lnk] Mismatch in read size (88) and actual EXTRA_DATA_BLOCK length (45) for data block (TRACKER_PROPS)
+2026-06-13 06:16:36,932 WARNING [dissect.shellitem.lnk.lnk] Mismatch in read size (88) and actual EXTRA_DATA_BLOCK length (45) for data block (TRACKER_PROPS)
+2026-06-13 06:16:36,936 WARNING [dissect.shellitem.lnk.lnk] Mismatch in read size (88) and actual EXTRA_DATA_BLOCK length (45) for data block (TRACKER_PROPS)
+2026-06-13 06:16:36,944 WARNING [dissect.shellitem.lnk.lnk] Mismatch in read size (88) and actual EXTRA_DATA_BLOCK length (45) for data block (TRACKER_PROPS)
+2026-06-13 06:16:36,959 WARNING [dissect.shellitem.lnk.lnk] Mismatch in read size (88) and actual EXTRA_DATA_BLOCK length (45) for data block (TRACKER_PROPS)
+2026-06-13 06:16:37,079 WARNING [app.automation.engine] Parse produced no usable output for defender.quarantine on base-rd-02-cdrive.
+2026-06-13 06:16:37,087 WARNING [app.automation.engine] Partial artifact parsing for base-rd-02-cdrive: 14/17 artifacts produced usable output.
+2026-06-13 06:16:37,092 INFO [app.logging.case_manager] Added image 6d4f645a-4d9c-46c3-a93f-317ae2800b3b to case 3bc3102d-8474-4ee5-8b85-9c4ae7ec0b96
+2026-06-13 06:16:37,849 WARNING [dissect.target.target] <Target /mnt/data/Evidence/base-wkstn-01-c-drive.E01>: Can't identify volume system or no volumes found, adding as raw volume instead: <Container type=ewf size=33833353216 vs=None>
+2026-06-13 06:16:51,714 WARNING [dissect.target.target] <Target /mnt/data/Evidence/base-wkstn-01-c-drive.E01>: Subplugin safari is not compatible with target
+2026-06-13 06:16:52,514 WARNING [dissect.target.target] <Target /mnt/data/Evidence/base-wkstn-01-c-drive.E01>: Subplugin edge is not compatible with target
+2026-06-13 06:16:52,717 WARNING [dissect.target.target] <Target /mnt/data/Evidence/base-wkstn-01-c-drive.E01>: Subplugin chromium is not compatible with target
+2026-06-13 06:16:53,384 WARNING [dissect.target.target] <Target /mnt/data/Evidence/base-wkstn-01-c-drive.E01>: Subplugin brave is not compatible with target
+2026-06-13 06:16:56,055 WARNING [dissect.target.target] <Target /mnt/data/Evidence/base-wkstn-01-c-drive.E01>: Invalid task file encountered: C:/WINDOWS/system32/tasks/Microsoft/Windows/Windows Error Reporting/QueueReporting
+2026-06-13 06:17:35,990 WARNING [dissect.target.target] <Target /mnt/data/Evidence/base-wkstn-01-c-drive.E01>: Not implemented ShimCache version: <RegfKey AppCompatCache> CacheMainSdb
+2026-06-13 06:17:43,286 WARNING [dissect.target.plugins.os.windows.jumplist] Failed to parse LNK file from directory 14
+2026-06-13 06:17:43,446 WARNING [dissect.target.plugins.os.windows.jumplist] Failed to parse LNK file from directory 16
+2026-06-13 06:17:43,449 WARNING [dissect.shellitem.lnk.lnk] Mismatch in read size (516) and actual EXTRA_DATA_BLOCK length (50) for data block (VISTA_AND_ABOVE_IDLIST_PROPS)
+2026-06-13 06:17:43,658 WARNING [dissect.target.plugins.os.windows.jumplist] Failed to parse LNK file from directory 61
+2026-06-13 06:17:43,759 WARNING [dissect.target.plugins.os.windows.jumplist] Failed to parse LNK file from directory 8a
+2026-06-13 06:17:43,780 WARNING [dissect.target.plugins.os.windows.jumplist] Failed to parse LNK file from directory 90
+2026-06-13 06:17:43,803 WARNING [dissect.target.plugins.os.windows.jumplist] Failed to parse LNK file from directory 98
+2026-06-13 06:17:43,815 WARNING [dissect.target.plugins.os.windows.jumplist] Failed to parse LNK file from directory 9c
+2026-06-13 06:17:43,887 WARNING [dissect.target.plugins.os.windows.jumplist] Failed to parse LNK file from directory d
+2026-06-13 06:17:43,991 WARNING [dissect.target.plugins.os.windows.jumplist] Failed to parse LNK file from directory 4
+2026-06-13 06:17:44,014 WARNING [dissect.target.plugins.os.windows.jumplist] Failed to parse LNK file from directory a
+2026-06-13 06:17:44,103 WARNING [dissect.shellitem.lnk.lnk] Mismatch in read size (432) and actual EXTRA_DATA_BLOCK length (50) for data block (VISTA_AND_ABOVE_IDLIST_PROPS)
+2026-06-13 06:17:44,384 WARNING [app.automation.engine] Parse produced no usable output for defender.quarantine on base-wkstn-01-c-drive.
+2026-06-13 06:17:44,394 WARNING [app.automation.engine] Partial artifact parsing for base-wkstn-01-c-drive: 15/16 artifacts produced usable output.
+2026-06-13 06:17:44,398 INFO [app.logging.case_manager] Added image 801988de-0f5b-4a11-848b-ad1e6011fb88 to case 3bc3102d-8474-4ee5-8b85-9c4ae7ec0b96
+2026-06-13 06:17:45,132 WARNING [dissect.target.target] <Target /mnt/data/Evidence/base-wkstn-05-cdrive.E01>: Can't identify volume system or no volumes found, adding as raw volume instead: <Container type=ewf size=31685869568 vs=None>
+2026-06-13 06:17:49,484 WARNING [dissect.target.target] <Target /mnt/data/Evidence/base-wkstn-05-cdrive.E01>: Subplugin safari is not compatible with target
+2026-06-13 06:17:50,233 WARNING [dissect.target.target] <Target /mnt/data/Evidence/base-wkstn-05-cdrive.E01>: Subplugin edge is not compatible with target
+2026-06-13 06:17:50,460 WARNING [dissect.target.target] <Target /mnt/data/Evidence/base-wkstn-05-cdrive.E01>: Subplugin chromium is not compatible with target
+2026-06-13 06:17:51,211 WARNING [dissect.target.target] <Target /mnt/data/Evidence/base-wkstn-05-cdrive.E01>: Subplugin brave is not compatible with target
+2026-06-13 06:18:01,152 WARNING [dissect.target.target] <Target /mnt/data/Evidence/base-wkstn-05-cdrive.E01>: Could not find registry key "Root\File"
+2026-06-13 06:18:01,208 WARNING [dissect.target.target] <Target /mnt/data/Evidence/base-wkstn-05-cdrive.E01>: Could not find registry key "Root\Programs"
+2026-06-13 06:18:02,512 ERROR [dissect.target.target] <Target /mnt/data/Evidence/base-wkstn-05-cdrive.E01>: Subplugin iexplore.history raised an exception: 'ascii' codec can't decode byte 0xe2 in position 188: ordinal not in range(128)
+2026-06-13 06:18:06,457 WARNING [dissect.target.plugins.os.windows.jumplist] Failed to parse LNK file from directory 8
+2026-06-13 06:18:08,304 WARNING [dissect.shellitem.lnk.lnk] Mismatch in read size (88) and actual EXTRA_DATA_BLOCK length (41) for data block (TRACKER_PROPS)
+2026-06-13 06:18:08,618 WARNING [dissect.shellitem.lnk.lnk] Mismatch in read size (88) and actual EXTRA_DATA_BLOCK length (42) for data block (TRACKER_PROPS)
+2026-06-13 06:18:08,620 WARNING [dissect.shellitem.lnk.lnk] Mismatch in read size (88) and actual EXTRA_DATA_BLOCK length (42) for data block (TRACKER_PROPS)
+2026-06-13 06:18:08,622 WARNING [dissect.shellitem.lnk.lnk] Mismatch in read size (88) and actual EXTRA_DATA_BLOCK length (42) for data block (TRACKER_PROPS)
+2026-06-13 06:18:08,625 WARNING [dissect.shellitem.lnk.lnk] Mismatch in read size (88) and actual EXTRA_DATA_BLOCK length (42) for data block (TRACKER_PROPS)
+2026-06-13 06:18:08,637 WARNING [dissect.target.plugins.os.windows.jumplist] Failed to parse LNK file from directory 1
+2026-06-13 06:18:08,653 WARNING [dissect.target.plugins.os.windows.jumplist] Failed to parse LNK file from directory 1
+2026-06-13 06:18:08,879 WARNING [app.automation.engine] Parse produced no usable output for defender.quarantine on base-wkstn-05-cdrive.
+2026-06-13 06:18:08,890 WARNING [app.automation.engine] Partial artifact parsing for base-wkstn-05-cdrive: 14/15 artifacts produced usable output.
+2026-06-13 06:18:08,895 INFO [app.logging.case_manager] Added image cb5dd4d0-e9da-4b7f-abd5-a1652671f61e to case 3bc3102d-8474-4ee5-8b85-9c4ae7ec0b96
+2026-06-13 06:18:09,490 WARNING [dissect.target.target] <Target /mnt/data/Evidence/dmz-ftp-cdrive.E01>: Can't identify volume system or no volumes found, adding as raw volume instead: <Container type=ewf size=26453475328 vs=None>
+2026-06-13 06:18:12,755 WARNING [dissect.target.target] <Target /mnt/data/Evidence/dmz-ftp-cdrive.E01>: Subplugin chrome is not compatible with target
+2026-06-13 06:18:12,781 WARNING [dissect.target.target] <Target /mnt/data/Evidence/dmz-ftp-cdrive.E01>: Subplugin safari is not compatible with target
+2026-06-13 06:18:12,867 WARNING [dissect.target.target] <Target /mnt/data/Evidence/dmz-ftp-cdrive.E01>: Subplugin firefox is not compatible with target
+2026-06-13 06:18:13,424 WARNING [dissect.target.target] <Target /mnt/data/Evidence/dmz-ftp-cdrive.E01>: Subplugin edge is not compatible with target
+2026-06-13 06:18:13,625 WARNING [dissect.target.target] <Target /mnt/data/Evidence/dmz-ftp-cdrive.E01>: Subplugin chromium is not compatible with target
+2026-06-13 06:18:14,571 WARNING [dissect.target.target] <Target /mnt/data/Evidence/dmz-ftp-cdrive.E01>: Subplugin brave is not compatible with target
+2026-06-13 06:18:33,328 WARNING [dissect.target.target] <Target /mnt/data/Evidence/dmz-ftp-cdrive.E01>: Could not find registry key "Root\InventoryApplicationFile"
+2026-06-13 06:18:33,328 WARNING [dissect.target.target] <Target /mnt/data/Evidence/dmz-ftp-cdrive.E01>: Could not find registry key "Root\InventoryApplication"
+2026-06-13 06:18:33,329 WARNING [dissect.target.target] <Target /mnt/data/Evidence/dmz-ftp-cdrive.E01>: Could not find registry key "Root\InventoryDeviceContainer"
+2026-06-13 06:18:33,329 WARNING [dissect.target.target] <Target /mnt/data/Evidence/dmz-ftp-cdrive.E01>: Could not find registry key "Root\InventoryDriverBinary"
+2026-06-13 06:18:33,655 WARNING [dissect.target.target] <Target /mnt/data/Evidence/dmz-ftp-cdrive.E01>: Could not find registry key "Root\InventoryApplicationShortcut"
+2026-06-13 06:18:36,941 ERROR [dissect.target.target] <Target /mnt/data/Evidence/dmz-ftp-cdrive.E01>: Error parsing response headers: 'NoneType' object has no attribute 'decode'
+2026-06-13 06:18:38,950 WARNING [dissect.shellitem.lnk.lnk] Mismatch in read size (88) and actual EXTRA_DATA_BLOCK length (41) for data block (TRACKER_PROPS)
+2026-06-13 06:18:38,964 WARNING [dissect.target.plugins.os.windows.jumplist] Failed to parse LNK file from directory 9
+2026-06-13 06:18:39,181 WARNING [app.automation.engine] Parse produced no usable output for defender.quarantine on dmz-ftp-cdrive.
+2026-06-13 06:18:39,198 WARNING [app.automation.engine] Partial artifact parsing for dmz-ftp-cdrive: 14/15 artifacts produced usable output.
+2026-06-13 06:18:39,554 INFO [app.ai_providers.kimi_provider] Initialized Kimi provider at https://api.moonshot.ai/v1 with model kimi-k2.6 (timeout 600.0s)
+2026-06-13 06:18:39,567 INFO [app.ai_providers.openai_compatible] Kimi attachment fallback inlined attachment data into prompt.
+2026-06-13 06:19:03,546 INFO [app.ai_providers.openai_compatible] Kimi attachment fallback inlined attachment data into prompt.
+2026-06-13 06:21:23,623 INFO [app.ai_providers.openai_compatible] Kimi attachment fallback inlined attachment data into prompt.
+2026-06-13 06:24:41,724 INFO [app.ai_providers.openai_compatible] Kimi attachment fallback inlined attachment data into prompt.
+2026-06-13 06:27:04,072 INFO [app.ai_providers.openai_compatible] Kimi attachment fallback inlined attachment data into prompt.
+2026-06-13 06:29:41,865 INFO [app.ai_providers.openai_compatible] Kimi attachment fallback inlined attachment data into prompt.
+2026-06-13 06:32:26,292 INFO [app.ai_providers.openai_compatible] Kimi attachment fallback inlined attachment data into prompt.
+2026-06-13 06:34:31,433 INFO [app.ai_providers.openai_compatible] Kimi attachment fallback inlined attachment data into prompt.
+2026-06-13 06:35:22,249 INFO [app.ai_providers.openai_compatible] Kimi attachment fallback inlined attachment data into prompt.
+2026-06-13 06:36:47,192 INFO [app.ai_providers.openai_compatible] Kimi attachment fallback inlined attachment data into prompt.
+2026-06-13 06:39:32,681 INFO [app.ai_providers.openai_compatible] Kimi attachment fallback inlined attachment data into prompt.
+2026-06-13 06:40:28,673 INFO [app.ai_providers.openai_compatible] Kimi attachment fallback inlined attachment data into prompt.
+2026-06-13 06:42:22,377 INFO [app.ai_providers.openai_compatible] Kimi attachment fallback inlined attachment data into prompt.
+2026-06-13 06:44:40,031 INFO [app.ai_providers.openai_compatible] Kimi attachment fallback inlined attachment data into prompt.
+2026-06-13 06:46:36,302 INFO [app.ai_providers.openai_compatible] Kimi attachment fallback inlined attachment data into prompt.
+2026-06-13 06:49:22,454 INFO [app.ai_providers.openai_compatible] Kimi attachment fallback inlined attachment data into prompt.
+2026-06-13 06:49:55,365 INFO [app.ai_providers.openai_compatible] Kimi attachment fallback inlined attachment data into prompt.
+2026-06-13 06:51:58,694 INFO [app.ai_providers.openai_compatible] Kimi attachment fallback inlined attachment data into prompt.
+2026-06-13 06:55:51,661 INFO [app.ai_providers.openai_compatible] Kimi attachment fallback inlined attachment data into prompt.
+2026-06-13 06:57:42,479 INFO [app.ai_providers.openai_compatible] Kimi attachment fallback inlined attachment data into prompt.
+2026-06-13 07:00:04,162 INFO [app.ai_providers.openai_compatible] Kimi attachment fallback inlined attachment data into prompt.
+2026-06-13 07:02:18,349 INFO [app.ai_providers.openai_compatible] Kimi attachment fallback inlined attachment data into prompt.
+2026-06-13 07:04:48,675 INFO [app.ai_providers.openai_compatible] Kimi attachment fallback inlined attachment data into prompt.
+2026-06-13 07:08:35,332 INFO [app.ai_providers.openai_compatible] Kimi attachment fallback inlined attachment data into prompt.
+2026-06-13 07:09:53,349 INFO [app.ai_providers.openai_compatible] Kimi attachment fallback inlined attachment data into prompt.
+2026-06-13 07:12:32,104 INFO [app.ai_providers.openai_compatible] Kimi attachment fallback inlined attachment data into prompt.
+2026-06-13 07:13:23,928 INFO [app.ai_providers.openai_compatible] Kimi attachment fallback inlined attachment data into prompt.
+2026-06-13 07:15:45,524 INFO [app.ai_providers.openai_compatible] Kimi attachment fallback inlined attachment data into prompt.
+2026-06-13 07:20:48,616 INFO [app.ai_providers.openai_compatible] Kimi attachment fallback inlined attachment data into prompt.
+2026-06-13 07:21:26,020 INFO [app.ai_providers.openai_compatible] Kimi attachment fallback inlined attachment data into prompt.
+2026-06-13 07:22:51,822 INFO [app.ai_providers.openai_compatible] Kimi attachment fallback inlined attachment data into prompt.
+2026-06-13 07:26:04,568 INFO [app.ai_providers.openai_compatible] Kimi attachment fallback inlined attachment data into prompt.
+2026-06-13 07:28:19,170 INFO [app.ai_providers.openai_compatible] Kimi attachment fallback inlined attachment data into prompt.
+2026-06-13 07:31:28,230 INFO [app.ai_providers.openai_compatible] Kimi attachment fallback inlined attachment data into prompt.
+2026-06-13 07:33:40,530 INFO [app.ai_providers.openai_compatible] Kimi attachment fallback inlined attachment data into prompt.
+2026-06-13 07:37:21,758 INFO [app.ai_providers.openai_compatible] Kimi attachment fallback inlined attachment data into prompt.
+2026-06-13 07:41:04,137 INFO [app.ai_providers.openai_compatible] Kimi attachment fallback inlined attachment data into prompt.
+2026-06-13 07:43:30,920 INFO [app.analyzer.core] Prompt plus inlined csv attachment fallback for browser.history (~98002 input tokens) exceeds reserved input budget (96000); using chunked analysis.
+2026-06-13 07:43:30,998 INFO [app.analyzer.chunking] Chunked analysis for browser.history: splitting into 2 chunks (budget 195770 chars/chunk).
+2026-06-13 07:43:31,002 INFO [app.analyzer.chunking] Analyzing browser.history chunk 1/2...
+2026-06-13 07:46:39,000 INFO [app.analyzer.chunking] Analyzing browser.history chunk 2/2...
+2026-06-13 07:49:28,114 INFO [app.analyzer.chunk_merge] Hierarchical merge for browser.history: 1 batches from 2 findings (budget 226562 chars).
+2026-06-13 07:51:10,127 INFO [app.analyzer.chunking] Chunked analysis for browser.history complete: 2 chunks merged.
+2026-06-13 07:51:10,168 INFO [app.ai_providers.openai_compatible] Kimi attachment fallback inlined attachment data into prompt.
+2026-06-13 07:52:18,861 INFO [app.ai_providers.openai_compatible] Kimi attachment fallback inlined attachment data into prompt.
+2026-06-13 07:53:45,824 INFO [app.ai_providers.openai_compatible] Kimi attachment fallback inlined attachment data into prompt.
+2026-06-13 07:58:13,902 INFO [app.ai_providers.openai_compatible] Kimi attachment fallback inlined attachment data into prompt.
+2026-06-13 08:00:28,988 INFO [app.ai_providers.openai_compatible] Kimi attachment fallback inlined attachment data into prompt.
+2026-06-13 08:04:57,939 INFO [app.ai_providers.openai_compatible] Kimi attachment fallback inlined attachment data into prompt.
+2026-06-13 08:09:34,825 INFO [app.ai_providers.openai_compatible] Kimi attachment fallback inlined attachment data into prompt.
+2026-06-13 08:10:45,307 INFO [app.ai_providers.openai_compatible] Kimi attachment fallback inlined attachment data into prompt.
+2026-06-13 08:13:32,464 INFO [app.ai_providers.openai_compatible] Kimi attachment fallback inlined attachment data into prompt.
+2026-06-13 08:15:24,248 INFO [app.ai_providers.openai_compatible] Kimi attachment fallback inlined attachment data into prompt.
+2026-06-13 08:18:17,532 INFO [app.ai_providers.openai_compatible] Kimi attachment fallback inlined attachment data into prompt.
+2026-06-13 08:22:24,012 INFO [app.ai_providers.openai_compatible] Kimi attachment fallback inlined attachment data into prompt.
+2026-06-13 08:24:21,733 INFO [app.ai_providers.openai_compatible] Kimi attachment fallback inlined attachment data into prompt.
+2026-06-13 08:25:57,503 INFO [app.ai_providers.openai_compatible] Kimi attachment fallback inlined attachment data into prompt.
+2026-06-13 08:27:51,212 INFO [app.analyzer.core] Prompt plus inlined csv attachment fallback for browser.history (~561269 input tokens) exceeds reserved input budget (96000); using chunked analysis.
+2026-06-13 08:27:51,667 INFO [app.analyzer.chunking] Chunked analysis for browser.history: splitting into 11 chunks (budget 197439 chars/chunk).
+2026-06-13 08:27:51,672 INFO [app.analyzer.chunking] Analyzing browser.history chunk 1/11...
+2026-06-13 08:31:04,271 INFO [app.analyzer.chunking] Analyzing browser.history chunk 2/11...
+2026-06-13 08:32:39,887 INFO [app.analyzer.chunking] Analyzing browser.history chunk 3/11...
+2026-06-13 08:35:51,639 INFO [app.analyzer.chunking] Analyzing browser.history chunk 4/11...
+2026-06-13 08:38:21,994 INFO [app.analyzer.chunking] Analyzing browser.history chunk 5/11...
+2026-06-13 08:41:08,367 INFO [app.analyzer.chunking] Analyzing browser.history chunk 6/11...
+2026-06-13 08:42:43,439 INFO [app.analyzer.chunking] Analyzing browser.history chunk 7/11...
+2026-06-13 08:46:04,157 INFO [app.analyzer.chunking] Analyzing browser.history chunk 8/11...
+2026-06-13 08:47:58,853 INFO [app.analyzer.chunking] Analyzing browser.history chunk 9/11...
+2026-06-13 08:51:26,258 INFO [app.analyzer.chunking] Analyzing browser.history chunk 10/11...
+2026-06-13 08:56:13,126 INFO [app.analyzer.chunking] Analyzing browser.history chunk 11/11...
+2026-06-13 08:57:43,434 INFO [app.analyzer.chunk_merge] Hierarchical merge for browser.history: 1 batches from 11 findings (budget 226562 chars).
+2026-06-13 09:03:33,829 INFO [app.analyzer.chunking] Chunked analysis for browser.history complete: 11 chunks merged.
+2026-06-13 09:03:33,985 INFO [app.ai_providers.openai_compatible] Kimi attachment fallback inlined attachment data into prompt.
+2026-06-13 09:04:39,453 INFO [app.analyzer.core] Prompt plus inlined csv attachment fallback for jumplist.automatic_destination (~870143 input tokens) exceeds reserved input budget (96000); using chunked analysis.
+2026-06-13 09:04:40,173 INFO [app.analyzer.chunking] Chunked analysis for jumplist.automatic_destination: splitting into 17 chunks (budget 188232 chars/chunk).
+2026-06-13 09:04:40,183 INFO [app.analyzer.chunking] Analyzing jumplist.automatic_destination chunk 1/17...
+2026-06-13 09:10:00,594 INFO [app.analyzer.chunking] Analyzing jumplist.automatic_destination chunk 2/17...
+2026-06-13 09:16:19,596 INFO [app.analyzer.chunking] Analyzing jumplist.automatic_destination chunk 3/17...
+2026-06-13 09:20:12,753 INFO [app.analyzer.chunking] Analyzing jumplist.automatic_destination chunk 4/17...
+2026-06-13 09:23:27,853 INFO [app.analyzer.chunking] Analyzing jumplist.automatic_destination chunk 5/17...
+2026-06-13 09:28:20,819 INFO [app.analyzer.chunking] Analyzing jumplist.automatic_destination chunk 6/17...
+2026-06-13 09:34:01,022 INFO [app.analyzer.chunking] Analyzing jumplist.automatic_destination chunk 7/17...
+2026-06-13 09:37:09,472 INFO [app.analyzer.chunking] Analyzing jumplist.automatic_destination chunk 8/17...
+2026-06-13 09:40:55,554 INFO [app.analyzer.chunking] Analyzing jumplist.automatic_destination chunk 9/17...
+2026-06-13 09:44:26,448 INFO [app.analyzer.chunking] Analyzing jumplist.automatic_destination chunk 10/17...
+2026-06-13 09:51:10,497 INFO [app.analyzer.chunking] Analyzing jumplist.automatic_destination chunk 11/17...
+2026-06-13 09:56:08,504 INFO [app.analyzer.chunking] Analyzing jumplist.automatic_destination chunk 12/17...
+2026-06-13 09:59:20,964 INFO [app.analyzer.chunking] Analyzing jumplist.automatic_destination chunk 13/17...
+2026-06-13 10:02:51,576 INFO [app.analyzer.chunking] Analyzing jumplist.automatic_destination chunk 14/17...
+2026-06-13 10:07:46,719 INFO [app.analyzer.chunking] Analyzing jumplist.automatic_destination chunk 15/17...
+2026-06-13 10:12:05,152 INFO [app.analyzer.chunking] Analyzing jumplist.automatic_destination chunk 16/17...
+2026-06-13 10:14:37,632 INFO [app.analyzer.chunking] Analyzing jumplist.automatic_destination chunk 17/17...
+2026-06-13 10:16:31,932 INFO [app.analyzer.chunk_merge] Hierarchical merge for jumplist.automatic_destination: 1 batches from 17 findings (budget 226562 chars).
+2026-06-13 10:19:34,005 INFO [app.analyzer.chunking] Chunked analysis for jumplist.automatic_destination complete: 17 chunks merged.
+2026-06-13 10:19:34,294 INFO [app.ai_providers.openai_compatible] Kimi attachment fallback inlined attachment data into prompt.
+2026-06-13 10:21:26,231 INFO [app.ai_providers.openai_compatible] Kimi attachment fallback inlined attachment data into prompt.
+2026-06-13 10:24:54,865 INFO [app.ai_providers.openai_compatible] Kimi attachment fallback inlined attachment data into prompt.
+2026-06-13 10:26:26,644 INFO [app.ai_providers.openai_compatible] Kimi attachment fallback inlined attachment data into prompt.
+2026-06-13 10:28:32,171 INFO [app.ai_providers.openai_compatible] Kimi attachment fallback inlined attachment data into prompt.
+2026-06-13 10:29:36,272 INFO [app.ai_providers.openai_compatible] Kimi attachment fallback inlined attachment data into prompt.
+2026-06-13 10:33:28,096 INFO [app.ai_providers.openai_compatible] Kimi attachment fallback inlined attachment data into prompt.
+2026-06-13 10:36:24,177 INFO [app.ai_providers.openai_compatible] Kimi attachment fallback inlined attachment data into prompt.
+2026-06-13 10:39:20,620 INFO [app.analyzer.core] Prompt plus inlined csv attachment fallback for amcache (~182990 input tokens) exceeds reserved input budget (96000); using chunked analysis.
+2026-06-13 10:39:20,772 INFO [app.analyzer.chunking] Chunked analysis for amcache: splitting into 4 chunks (budget 192807 chars/chunk).
+2026-06-13 10:39:20,777 INFO [app.analyzer.chunking] Analyzing amcache chunk 1/4...
+2026-06-13 10:40:51,892 INFO [app.analyzer.chunking] Analyzing amcache chunk 2/4...
+2026-06-13 10:44:48,334 INFO [app.analyzer.chunking] Analyzing amcache chunk 3/4...
+2026-06-13 10:47:44,268 INFO [app.analyzer.chunking] Analyzing amcache chunk 4/4...
+2026-06-13 10:50:09,085 INFO [app.analyzer.chunk_merge] Hierarchical merge for amcache: 1 batches from 4 findings (budget 226562 chars).
+2026-06-13 10:53:16,715 INFO [app.analyzer.chunking] Chunked analysis for amcache complete: 4 chunks merged.
+2026-06-13 10:53:16,746 INFO [app.ai_providers.openai_compatible] Kimi attachment fallback inlined attachment data into prompt.
+2026-06-13 10:53:54,251 INFO [app.ai_providers.openai_compatible] Kimi attachment fallback inlined attachment data into prompt.
+2026-06-13 10:55:29,734 INFO [app.ai_providers.openai_compatible] Kimi attachment fallback inlined attachment data into prompt.
+2026-06-13 10:56:56,177 INFO [app.analyzer.core] Prompt plus inlined csv attachment fallback for browser.history (~257761 input tokens) exceeds reserved input budget (96000); using chunked analysis.
+2026-06-13 10:56:56,405 INFO [app.analyzer.chunking] Chunked analysis for browser.history: splitting into 5 chunks (budget 193566 chars/chunk).
+2026-06-13 10:56:56,409 INFO [app.analyzer.chunking] Analyzing browser.history chunk 1/5...
+2026-06-13 10:59:51,178 INFO [app.analyzer.chunking] Analyzing browser.history chunk 2/5...
+2026-06-13 11:02:39,573 INFO [app.analyzer.chunking] Analyzing browser.history chunk 3/5...
+2026-06-13 11:05:23,338 INFO [app.analyzer.chunking] Analyzing browser.history chunk 4/5...
+2026-06-13 11:09:11,676 INFO [app.analyzer.chunking] Analyzing browser.history chunk 5/5...
+2026-06-13 11:13:18,719 INFO [app.analyzer.chunk_merge] Hierarchical merge for browser.history: 1 batches from 5 findings (budget 226562 chars).
+2026-06-13 11:15:03,778 INFO [app.analyzer.chunking] Chunked analysis for browser.history complete: 5 chunks merged.
+2026-06-13 11:15:03,836 INFO [app.ai_providers.openai_compatible] Kimi attachment fallback inlined attachment data into prompt.
+2026-06-13 11:16:00,294 INFO [app.ai_providers.openai_compatible] Kimi attachment fallback inlined attachment data into prompt.
+2026-06-13 11:17:36,428 INFO [app.ai_providers.openai_compatible] Kimi attachment fallback inlined attachment data into prompt.
+2026-06-13 11:19:39,185 INFO [app.ai_providers.openai_compatible] Kimi attachment fallback inlined attachment data into prompt.
+2026-06-13 11:22:41,287 INFO [app.ai_providers.openai_compatible] Kimi attachment fallback inlined attachment data into prompt.
+2026-06-13 11:27:55,080 INFO [app.ai_providers.openai_compatible] Kimi attachment fallback inlined attachment data into prompt.
+2026-06-13 11:29:25,992 INFO [app.ai_providers.openai_compatible] Kimi attachment fallback inlined attachment data into prompt.
+2026-06-13 11:30:09,953 INFO [app.ai_providers.openai_compatible] Kimi attachment fallback inlined attachment data into prompt.
+2026-06-13 11:32:31,928 INFO [app.ai_providers.openai_compatible] Kimi attachment fallback inlined attachment data into prompt.
+2026-06-13 11:34:41,054 INFO [app.ai_providers.openai_compatible] Kimi attachment fallback inlined attachment data into prompt.
+2026-06-13 11:37:51,728 INFO [app.ai_providers.openai_compatible] Kimi attachment fallback inlined attachment data into prompt.
+2026-06-13 11:39:25,742 INFO [app.ai_providers.openai_compatible] Kimi attachment fallback inlined attachment data into prompt.
+2026-06-13 11:42:26,209 INFO [app.ai_providers.openai_compatible] Kimi attachment fallback inlined attachment data into prompt.
+2026-06-13 11:43:49,833 INFO [app.ai_providers.openai_compatible] Kimi attachment fallback inlined attachment data into prompt.
+2026-06-13 11:45:08,752 INFO [app.ai_providers.openai_compatible] Kimi attachment fallback inlined attachment data into prompt.
+2026-06-13 11:47:15,164 INFO [app.ai_providers.openai_compatible] Kimi attachment fallback inlined attachment data into prompt.
+2026-06-13 11:48:51,023 INFO [app.ai_providers.openai_compatible] Kimi attachment fallback inlined attachment data into prompt.
+2026-06-13 11:50:14,188 INFO [app.ai_providers.openai_compatible] Kimi attachment fallback inlined attachment data into prompt.
+2026-06-13 11:51:30,610 INFO [app.ai_providers.openai_compatible] Kimi attachment fallback inlined attachment data into prompt.
+2026-06-13 11:57:42,758 INFO [app.ai_providers.openai_compatible] Kimi attachment fallback inlined attachment data into prompt.
+2026-06-13 11:58:07,891 INFO [app.ai_providers.openai_compatible] Kimi attachment fallback inlined attachment data into prompt.
+2026-06-13 11:59:33,867 INFO [app.ai_providers.openai_compatible] Kimi attachment fallback inlined attachment data into prompt.
+2026-06-13 12:01:20,154 INFO [app.ai_providers.openai_compatible] Kimi attachment fallback inlined attachment data into prompt.
+2026-06-13 12:04:18,126 INFO [app.ai_providers.openai_compatible] Kimi attachment fallback inlined attachment data into prompt.
+2026-06-13 12:07:47,015 INFO [app.ai_providers.openai_compatible] Kimi attachment fallback inlined attachment data into prompt.
+2026-06-13 12:09:20,455 INFO [app.ai_providers.openai_compatible] Kimi attachment fallback inlined attachment data into prompt.
+2026-06-13 12:12:19,736 INFO [app.ai_providers.openai_compatible] Kimi attachment fallback inlined attachment data into prompt.
+2026-06-13 12:13:01,500 INFO [app.ai_providers.openai_compatible] Kimi attachment fallback inlined attachment data into prompt.
+2026-06-13 12:18:25,166 INFO [app.ai_providers.openai_compatible] Kimi attachment fallback inlined attachment data into prompt.
+2026-06-13 12:20:55,149 INFO [app.ai_providers.openai_compatible] Kimi attachment fallback inlined attachment data into prompt.
+2026-06-13 12:23:39,984 INFO [app.ai_providers.openai_compatible] Kimi attachment fallback inlined attachment data into prompt.
+2026-06-13 12:24:17,397 INFO [app.ai_providers.openai_compatible] Kimi attachment fallback inlined attachment data into prompt.
+2026-06-13 12:26:32,337 INFO [app.ai_providers.openai_compatible] Kimi attachment fallback inlined attachment data into prompt.
+2026-06-13 12:33:09,888 INFO [app.ai_providers.openai_compatible] Kimi attachment fallback inlined attachment data into prompt.
+2026-06-13 13:08:57,022 WARNING [app.reporter.generator] Report input normalization warning: Parse produced no usable output for recyclebin on base-dc-cdrive.
+2026-06-13 13:08:57,022 WARNING [app.reporter.generator] Report input normalization warning: Partial artifact parsing for base-dc-cdrive: 15/16 artifacts produced usable output.
+2026-06-13 13:08:57,022 WARNING [app.reporter.generator] Report input normalization warning: Parse produced no usable output for defender.quarantine on base-file-cdrive.
+2026-06-13 13:08:57,022 WARNING [app.reporter.generator] Report input normalization warning: Partial artifact parsing for base-file-cdrive: 14/15 artifacts produced usable output.
+2026-06-13 13:08:57,022 WARNING [app.reporter.generator] Report input normalization warning: Parse produced no usable output for defender.quarantine on base-rd-01-cdrive.
+2026-06-13 13:08:57,022 WARNING [app.reporter.generator] Report input normalization warning: Partial artifact parsing for base-rd-01-cdrive: 16/17 artifacts produced usable output.
+2026-06-13 13:08:57,022 WARNING [app.reporter.generator] Report input normalization warning: Parse produced no usable output for recyclebin on base-rd-02-cdrive.
+2026-06-13 13:08:57,022 WARNING [app.reporter.generator] Report input normalization warning: Parse produced no usable output for browser.downloads on base-rd-02-cdrive.
+2026-06-13 13:08:57,023 WARNING [app.reporter.generator] Report input normalization warning: Parse produced no usable output for defender.quarantine on base-rd-02-cdrive.
+2026-06-13 13:08:57,023 WARNING [app.reporter.generator] Report input normalization warning: Partial artifact parsing for base-rd-02-cdrive: 14/17 artifacts produced usable output.
+2026-06-13 13:08:57,023 WARNING [app.reporter.generator] Report input normalization warning: Parse produced no usable output for defender.quarantine on base-wkstn-01-c-drive.
+2026-06-13 13:08:57,023 WARNING [app.reporter.generator] Report input normalization warning: Partial artifact parsing for base-wkstn-01-c-drive: 15/16 artifacts produced usable output.
+2026-06-13 13:08:57,023 WARNING [app.reporter.generator] Report input normalization warning: Parse produced no usable output for defender.quarantine on base-wkstn-05-cdrive.
+2026-06-13 13:08:57,023 WARNING [app.reporter.generator] Report input normalization warning: Partial artifact parsing for base-wkstn-05-cdrive: 14/15 artifacts produced usable output.
+2026-06-13 13:08:57,023 WARNING [app.reporter.generator] Report input normalization warning: Parse produced no usable output for defender.quarantine on dmz-ftp-cdrive.
+2026-06-13 13:08:57,023 WARNING [app.reporter.generator] Report input normalization warning: Partial artifact parsing for dmz-ftp-cdrive: 14/15 artifacts produced usable output.
+2026-06-13 13:08:57,086 WARNING [app.automation.json_export] Report input normalization warning: Parse produced no usable output for recyclebin on base-dc-cdrive.
+2026-06-13 13:08:57,086 WARNING [app.automation.json_export] Report input normalization warning: Partial artifact parsing for base-dc-cdrive: 15/16 artifacts produced usable output.
+2026-06-13 13:08:57,086 WARNING [app.automation.json_export] Report input normalization warning: Parse produced no usable output for defender.quarantine on base-file-cdrive.
+2026-06-13 13:08:57,086 WARNING [app.automation.json_export] Report input normalization warning: Partial artifact parsing for base-file-cdrive: 14/15 artifacts produced usable output.
+2026-06-13 13:08:57,087 WARNING [app.automation.json_export] Report input normalization warning: Parse produced no usable output for defender.quarantine on base-rd-01-cdrive.
+2026-06-13 13:08:57,087 WARNING [app.automation.json_export] Report input normalization warning: Partial artifact parsing for base-rd-01-cdrive: 16/17 artifacts produced usable output.
+2026-06-13 13:08:57,087 WARNING [app.automation.json_export] Report input normalization warning: Parse produced no usable output for recyclebin on base-rd-02-cdrive.
+2026-06-13 13:08:57,087 WARNING [app.automation.json_export] Report input normalization warning: Parse produced no usable output for browser.downloads on base-rd-02-cdrive.
+2026-06-13 13:08:57,087 WARNING [app.automation.json_export] Report input normalization warning: Parse produced no usable output for defender.quarantine on base-rd-02-cdrive.
+2026-06-13 13:08:57,087 WARNING [app.automation.json_export] Report input normalization warning: Partial artifact parsing for base-rd-02-cdrive: 14/17 artifacts produced usable output.
+2026-06-13 13:08:57,087 WARNING [app.automation.json_export] Report input normalization warning: Parse produced no usable output for defender.quarantine on base-wkstn-01-c-drive.
+2026-06-13 13:08:57,087 WARNING [app.automation.json_export] Report input normalization warning: Partial artifact parsing for base-wkstn-01-c-drive: 15/16 artifacts produced usable output.
+2026-06-13 13:08:57,087 WARNING [app.automation.json_export] Report input normalization warning: Parse produced no usable output for defender.quarantine on base-wkstn-05-cdrive.
+2026-06-13 13:08:57,087 WARNING [app.automation.json_export] Report input normalization warning: Partial artifact parsing for base-wkstn-05-cdrive: 14/15 artifacts produced usable output.
+2026-06-13 13:08:57,087 WARNING [app.automation.json_export] Report input normalization warning: Parse produced no usable output for defender.quarantine on dmz-ftp-cdrive.
+2026-06-13 13:08:57,087 WARNING [app.automation.json_export] Report input normalization warning: Partial artifact parsing for dmz-ftp-cdrive: 14/15 artifacts produced usable output.
+2026-06-13 13:08:57,114 INFO [app.automation.json_export] JSON report written to /home/sansforensics/Desktop/AIFT/cases/3bc3102d-8474-4ee5-8b85-9c4ae7ec0b96/reports/AIFT_report_3bc3102d-8474-4ee5-8b85-9c4ae7ec0b96_20260613_130856.json
