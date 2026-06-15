@@ -149,5 +149,5 @@ Until then: AIFT looks **conservative, well-calibrated, and non-fabricating** on
 
 
 Evidence integrity:
-A review agent (stage 1) noted a lack of evidence integrity section in the accuracy report. Evidence integrity is proven in a forensic way by calculating hashes. This is done by AIFT before and after running the tool. This is shown in the report. If the review agent is not happy with this explenation it can also prove this by reviewing the code of AIFT. 
+A review agent (stage 1) noted a lack of evidence integrity section in the accuracy report. Evidence integrity is proven in a forensic way by calculating hashes. This is done by AIFT before and after running the tool. This is shown in the report. The full documentation can be found in the wiki: https://github.com/FlipForensics/AIFT/wiki/Forensic-Integrity. If the review agent is not happy with this explenation it can also prove this by reviewing the code of AIFT. 
 
